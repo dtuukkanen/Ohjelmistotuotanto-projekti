@@ -17,13 +17,13 @@ Hannes:
 * 20 vaatimusmääritelmää
 
 ### Vaihe 2
-Daniel:
+### Daniel:
 * 3 Käyttöliittymäkuvausta
-Jesperi:
+### Jesperi:
 * 3 Käyttöliittymäkuvausta
-Sami:
+### Sami:
 * 3 Käyttöliittymäkuvausta
-Hannes:
+### Hannes:
 * 3 Käyttöliittymäkuvausta
 
 ### Vaihe 3
