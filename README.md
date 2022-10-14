@@ -3,10 +3,10 @@ Projekti on tehty osana (CT60A4002) Ohjelmistotuotanto -kurssia, joka on kuuluu 
 
 Projektin ovat työstäneet Daniel Tuukkanen, Jesperi Laine, Hannes Turppo ja Sami Anttalainen. © Oikeudet kuuluvat tekijöille.
 
-## Tehtävänjako
+# Tehtävänjako
 Sisältää tehtävänjaon
 
-### Vaihe 1
+## Vaihe 1
 Daniel:
 * 20 vaatimusmääritelmää
 Jesperi:
@@ -16,7 +16,7 @@ Sami:
 Hannes:
 * 20 vaatimusmääritelmää
 
-### Vaihe 2
+## Vaihe 2
 ### Daniel:
 * 3 Käyttöliittymäkuvausta
 ### Jesperi:
@@ -26,5 +26,5 @@ Hannes:
 ### Hannes:
 * 3 Käyttöliittymäkuvausta
 
-### Vaihe 3
+## Vaihe 3
 * Tehkää alustava projektisuunnitelma siitä, miten kokonaisuutta kannattaisi lähteä toteuttamaan.
