@@ -7,13 +7,13 @@ Projektin ovat työstäneet Daniel Tuukkanen, Jesperi Laine, Hannes Turppo ja Sa
 Sisältää tehtävänjaon
 
 ## Vaihe 1
-Daniel:
+### Daniel:
 * 20 vaatimusmääritelmää
-Jesperi:
+### Jesperi:
 * 20 vaatimusmääritelmää
-Sami:
+### Sami:
 * 20 vaatimusmääritelmää
-Hannes:
+### Hannes:
 * 20 vaatimusmääritelmää
 
 ## Vaihe 2
