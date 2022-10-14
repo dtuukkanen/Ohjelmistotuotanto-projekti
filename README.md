@@ -28,3 +28,6 @@ Hannes:
 
 ## Vaihe 3
 * Tehkää alustava projektisuunnitelma siitä, miten kokonaisuutta kannattaisi lähteä toteuttamaan.
+
+
+Tämä on vain testi. Tämä commitataan ja pushataan.
