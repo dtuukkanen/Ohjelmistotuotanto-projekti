@@ -8,13 +8,10 @@ Linkki dokumenttiin, jossa työtä on kaikin tavoin helpompi työstää:
 https://lut-my.sharepoint.com/:w:/g/personal/daniel_tuukkanen_student_lut_fi/EfUtz9_sdvVPufwkexyQcZsBVaOlEDq5II_ayMuomCbNvw?e=jNcLmu
 
 Avatkaa tiedosto työpöytäsovellukseen, jolloin tiedosto näyttää oikealta.
-
 ### Ohjeet
 Muokkaus -> Avaa työpöytäsovelluksessa
 
 # Tehtävänjako
-Sisältää tehtävänjaon
-
 ## Vaihe 1
 ### Daniel:
 * 20 vaatimusmääritelmää
