@@ -9,7 +9,7 @@ https://lut-my.sharepoint.com/:w:/g/personal/daniel_tuukkanen_student_lut_fi/EfU
 
 Avatkaa tiedosto työpöytäsovellukseen, jolloin tiedosto näyttää oikealta.
 
-## Ohjeet
+### Ohjeet
 Muokkaus -> Avaa työpöytäsovelluksessa
 
 # Tehtävänjako
