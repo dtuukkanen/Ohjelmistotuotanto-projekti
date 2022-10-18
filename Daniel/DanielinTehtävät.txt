@@ -1,8 +1,6 @@
 Vaatimusmääritelmät:
 Android-yhteensopivuus
 iOS-yhteensopivuus
-Windows-yhteensopivuus
-MacOs-yhteensopivuus
 Linux-yhteensopivuus
 Ei toimi vanhemmilla järjestelmillä kuin Android 8
 Ei toimi vanhemmilla järjestelmillä kuin iOS 11
@@ -31,3 +29,9 @@ Skaalautuva palvelin
 Edistymispalkki, kun vastausta noudetaan
 Julkaistaan Google Play Storeen
 Julkaistaan Applen App Storeen
+Käyttäjä saa valita lähetetäänkö telemetria tietoja kehittäjälle
+Käyttäjä saa toimia halutessaan anonyymisti
+Käyttäjä voi luoda käyttäjän, jolloin aikasemmat kysymykset, yleiset sijainnit ja yleiset kysymykset voi ehdottaa paremmin
+Kehittäjä ylläpitää sovellusta
+X miljoonan budjetti
+OSRM matkan pituuksiin
