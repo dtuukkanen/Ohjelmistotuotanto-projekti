@@ -1,15 +1,31 @@
-Lisätään ensimmäinen rivi:
-
-Lisätään lisää tavaraa
-Vieläkin lisää
-Ja lisää
-lisää
-isää
-sää
-ää
-ä
-
-Jostain syystä pull request ei ilmestynyt
-Outoa!
-
-Lisää!
+Vaatimusmääritelmät:
+Android-yhteensopivuus
+iOS-yhteensopivuus
+Windows-yhteensopivuus
+MacOs-yhteensopivuus
+Linux-yhteensopivuus
+Ei toimi vanhemmilla järjestelmillä kuin Android 8
+Ei toimi vanhemmilla järjestelmillä kuin iOS 11
+APT-paketin hallinta järjestelmään
+RPM-paketin hallinta järjestelmään
+Pacman-paketin hallinta järjestelmään
+ARM-pohjaisten laitteiden tuki
+Tulee hakea tiedot Ilmatieteen laitoksen avoimesta datasta
+Käyttöliittymästä yhtenäinen järjestelmien välillä
+UI simppeliksi
+Käyttäjälle ei tarjota ylimääräisiä muokkaus työkaluja
+Vaalea teema
+Tumma teema
+Toteutetaan Flutterilla
+Ohjelmistokielenä Dart
+GitHub versiohallintaan
+Sovellus vaatii verkon toimiakseen
+Sovellus haluaa käyttää sijaintia
+Kaikkien ominaisuuksien tulee näkyä etusivulla
+Valikkomuotoinen rakenne
+Työkaluja ei piiloteta syvälle valikkoihin
+Palaute painike, jokaiseen kyselyyn, jos haku ei tuottanut haluttua tulosta käyttäjän mielestä
+Karttapalveluna OpenStreetMap
+Tekoälytoimii palvelimella
+Skaalautuva palvelin
+Edistymispalkki, kun vastausta noudetaan
