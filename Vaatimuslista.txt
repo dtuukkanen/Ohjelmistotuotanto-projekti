@@ -44,6 +44,7 @@ Mitä tekee:
 
 Miten käytetään:
     Merkata geokätköjä
+        Kun käyttäjä on geogätkön koordinaateissa, käyttäjä painaa " merkkaa geokätkö" näppäintä. Lisäksi käyttäjä voi tallentaa tekstitiedostoon vinkin geokätkön löytämiseen, joko itselleen tai julkiseksi.
     
 
 Mitkä vaatimukset:
