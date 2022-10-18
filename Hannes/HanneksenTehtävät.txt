@@ -1,0 +1,16 @@
+profiloi käyttäjiä
+valitsee ehdotukset käyttäjälle profiloinnin perusteella
+kysyy käyttäjältä tietoja 
+määrittää käyttäjän sijainnin
+jos ei mahdollista, kysyy käyttäjän sijainnin
+hakee sijainnin säätiedot
+osaa lukea avoimen lähdekoodin säädataa
+toimii ennusteen perusteella
+toimiva tietoturva
+käsittelee asiakkaan tietoja voimassaolevien lakien ja säädösten mukaisesti
+toimii relevanteilla käyttöjärjestelmillä: IOS, Android, linux, grapheneOS...
+pystyy tulkitsemaan, erottelemaan ja luokittelemaan relevantin datan käyttäjän esittämistä kysymyksistä
+hakee internetistä tarvittaessa vastauksia käyttäjän kysymyksiin
+erottelee maksavat ja ilmaisohjelmaa käyttävät käyttäjät eri statuksilla
+rajaa käyttäjälle avoimia ominaisuuksia käyttäjän statuksen mukaan
+tallentaa käyttäjän toiminnot GPX-tiedostoina
