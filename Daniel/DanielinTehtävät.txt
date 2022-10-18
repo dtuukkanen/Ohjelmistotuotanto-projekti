@@ -29,3 +29,5 @@ Karttapalveluna OpenStreetMap
 Tekoälytoimii palvelimella
 Skaalautuva palvelin
 Edistymispalkki, kun vastausta noudetaan
+Julkaistaan Google Play Storeen
+Julkaistaan Applen App Storeen
