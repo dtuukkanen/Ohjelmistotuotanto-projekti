@@ -1,14 +1,15 @@
 Ohjelman tulisi toimia kännykällä. 
  Ohjelman tulisi pystyä hakemaan dataa avoimen koodin läheteistä.
  ohjelman tulisi pystyä yhdistämään sijaintitiedot, säätirtoihin ja päättelemään niiden avulla sään halutulla alueella.
- psytyä träkkäämään ymp
+ psytyä träkkäämään ympristöä ja hahmottamaan maan taso ja lisäämään ar-objekteja näytölle
 
-ristöä ja hahmottamaan maan taso ja lisäämään ar-objekteja näytölle
- hakea tietoa lähipaikkojen aukioloista netistä.
- määrittämään/käyttämään google mapsia matka-ajan määrittämiseen.
- kertomaan missä on lähin ravintola/ kulttuuri paikka 
+hakea tietoa lähipaikkojen aukioloista netistä.
 
-yhdistämään haluttu säätila halutun kohteen(ravintola, terassi yms.) aukiolo ajan kanssa.
+määrittämään/käyttämään google mapsia matka-ajan määrittämiseen.
+
+kertomaan missä on lähin ravintola/ kulttuuri paikka 
+
+yhdistämään säätila halutun kohteen(ravintola, terassi yms.) aukiolo ajan kanssa.
 
 merkata geokätköjä
 
@@ -16,20 +17,22 @@ pitää listaa jo löydettyistä geokätköistä
 
 kerätä geokätöjen sijainteja yleiseen levitykseen.
 
-kerätä dataa geokätköjen tarvikkeiden täydennys tarpeesta. 
+kerätä dataa geokätköjen tarvikkeiden täydennys tarpeesta.? 
 
 laskea mihin kohteisiin kerkeät kohteen aukioloaikana nykyisestä sijainnista halutulla kulkuvälineellä.
 
-luokitella kohteita viihdepalveluihin, ruokapaikkoihin,
+luokitella kohteita viihdepalveluihin, ruokapaikkoihin.
 
 luoda mahdollisia ”kokemus reittejä” halutuilla rajaukislla. 
+esim.
  onko lapsia
- haluuako vierailla kulttuuri paikoissa vai enemmän toiminnallisissa. esim hiekkalinna
+ haluuako vierailla kulttuuri paikoissa vai enemmän toiminnallisissa. esim hiekkalinna museo.
  eli jos haluaa vaikka mennä hiekkalinnaan, niin näyttää hiekkalinnaa lähellä olevat ruokapaikat ja aukioloajat.	
 
-määritellä ruokailu paikkoja eri luokkiin. pikaruoka, ravintola, kioski jne
+määritellä ruokailupaikkoja eri luokkiin. pikaruoka, ravintola, kioski jne
 
-manuaalisesti päivitettynynä kertoa ne ravintolat joissa on ”lapsi ystävällisiä” annoksia. ja suositellla niitä jos niin on määritelty.
+manuaalisesti päivitettynynä kertoa ne ravintolat joissa on ”lapsi ystävällisiä” annoksia. ja suositellla niitä jos niin on määritelty. perustuu asiakkaiden tekemiin paikassaivityksiin. 
+Ei lisää automaattisesti vaan ylläpitäjän pitää lisää ne asiakkaiden ehdotusten perusteella ja mahdollisen netistä löytyvän menun perusteella.
 
 tallentaa käyttäjän lenkkipolun halutessaan ja esim ajan. jotta käyttäjä voi vertailla lenkkiakojaan.
 
@@ -40,15 +43,16 @@ kertoa mitkä paikat ovat minkäkin ikä ryhmän suosiossa.
 
 näyttää kaupungin ulkoliikunta paikat. salit frisbiigolf radat
 
-paikoissa jossa voi joitua jonottamaan on paikkadatan avulla aukeava yksinkertainen minpeli jota voi pelata vain siinä paikassa kuluttaakseen jonotus aikaa. Tulokset tallentuisivat listaan kaikkien nähtäville. 
+paikoissa jossa voi joitua jonottamaan on paikkadatan avulla aukeava yksinkertainen minpeli jota voi pelata vain siinä paikassa kuluttaakseen aikaa. Tulokset tallentuisivat listaan kaikkien nähtäville. 
 
 peli: aarteen metsästys. puhelimen kompassi. ”jack sparrow” kompassi. näyttää suunnan sinne missä aarre on. varoittaa teistä. aarteen metsästys tiettynä aikana?. Ei oikeaa aarretta, mutta puhelin ilmoittaa kun olet aarteen päällä. aarteet haluttujen paikkoijen lähellä. eli ns sidequest. 
 määrittää puhelimen asento qyroskoopin avulla ja siten ohjata oikeaan suuntaa edellämainitussa pelissä.
 
-väri korjaus tila
+värikorjaus tila
 
 arvostelut paikoille  google mapsista
 
 näyttää matkailuautoparkkipaikat.
 
 suositella lähintä parkki aluetta määritetyn kohteen läheltä.  Data open street datasta. kts esim tarinasoitin.frisbiigolf
+
