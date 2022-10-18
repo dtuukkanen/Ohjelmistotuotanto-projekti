@@ -1,0 +1,63 @@
+Ohjelmistojen tulee vaatia korkeintaan 2 gb keskusmuistia ja korkeintaan 1 gb oheismuistia.
+	Ohjelmisto tuskin tulee vaatimaan näin paljon kumpaakaan muistia, mutta ohjelmiston tulee olla varautunut tähän mahdollisuuteen.
+
+Ohjelmistossa kertyvä data tallentuu pääsääntöisesti pilvipalveluun.
+	Jotta oheismuisti ei täyttyisi samantien, niin ohjelmistossa kertyvä data tallentuu pilvipalvelimeen, mutta halutessaan myös käyttäjän laitteeseen.
+
+Ohjelmiston tulee toimia kaikissa puhelinkäyttöjärjestelmissä.
+	Ohjelmiston tulee tukea Android, iOS, Linux ja muita suosittuja puhelinkäyttöjärjestelmiä, jotta ohjelmisto olisi saatavilla mahdollisimman monelle ihmiselle puhelimesta.
+
+Ohjelmiston tulee toimia kaikissa Internet selaimissa.
+	Ohjelmiston tulee tukea jokaista Internet selainta tietokoneella käytettäessä, jotta ihmiset voivat kotoa suunnitella haluamaansa ajanvietettä ennakkoon.	
+
+Ohjelmiston tulee pystyä toimimaan joustavasti eri käyttöliittymien välillä.
+	Ohjelmistojen tulee pysytä välittämään dataa toisten käyttöjärjestelmien välillä, jotta ohjelmistoa olisi joustavampi käyttää eri laitteiden kanssa yhdessä.
+
+Ohjelmiston tulee pystyä hyödyntämään Internet ja Bluetooth-yhteyttä.
+	Ohjelmistojen tulee pystyä hyödyntämään mainittuja yhteyksiä, koska valtaosa datasta välitetään näiden yhteyksien avulla.	
+
+Ohjelmiston tulee pystyä langattomaan tiedonsiirtoon.
+	Ohjelmiston tulee pystyä langattomaan tiedonsiirtoon pääsääntöisesti Internet -yhteyden avulla ja joissakin tapauksissa Bluetooth yhteyden avulla, kuten esimerkiksi Bluetooth -kuulokkeilla kuunneltaessa.	
+
+Ohjelmiston selainpohjaisen käyttöliittymän tulee ilmoittaa evästeistä EU:n alueella.
+	EU:n lakimuutosten myötä, kaikkien Internet -sivujen, jotka käyttävät evästeitä, joutuvat ilmoittamaan tästä käyttäjällensä heti Internet -sivua avattaessa.	
+
+Ohjelmiston tulee noudattaa EU:n asettamia tietoturvalakeja.
+	2025 tulee voimaan uudet tietoturvalait EU:n alueella, joidenka myötä ohjelmistojen tulee täyttää lain määrittämät tietoturvavaatimukset.	
+
+Ohjelmiston tulee olla tietoturvallinen.
+	Ohjelmisto ei saa jakaa käyttäjätietoja muiden tahojen kanssa, paitsi jos käyttäjä antaa luvan.
+
+Ohjelmiston tulee antaa keräämänsä data käyttäjän nähtäville.
+	Jos käyttäjä haluaa tietää, mitä dataa ohjelmisto kerää, niin käyttäjällä tulee olla mahdollisuus sen näkemiseen.
+
+Ohjelmistossa tulee olla mahdollisuus poistaa kaikki käyttäjän tuoma data.
+	Jos käyttäjä lopettaa ohjelmiston käytön, niin käyttäjällä tulee olla mahdollisuus poistaa omat käyttäjätietonsa.
+
+Ohjelmiston tulee pystyä toimimaan muiden ohjelmistojen/tiedostomuotojen kanssa.
+	Ohjelmistoon voidaan lähettää eri tiedostomuotoisia tiedostoja muista ohjelmista, jolloin ohjelmiston tulisi kyetä käsittelemään näitä tiedostoja.
+		Ohjelmistossa tulisi ilmoittaa selvästi, mitä tiedostoja tuetaan.
+
+Ohjelmiston tulee pystyä hyödyntämään selaimen tai puhelimenkäyttöliittymän tarjoamia sijaintitietoja.
+	Monet ohjelmiston ominaisuudet perustuvat siihen, että käyttäjä pystyy puhelimen sijaintitietojen avulla suunnistamaan ja etsimään sijainteja.	
+
+Ohjelmiston tulee pystyä hyödyntämään AikaApuri ja KarttaApuri -ohjelmistojen ominaisuuksia.
+	AikaApurilla saadaan selville yrityksien aukiolotiedot, jotta käyttäjän ei tarvitse käydä ovelta selvittelemässä aukioloaikoja. Samalla saadaan yrityksien osoitteet, jolloin KarttaApurilla voidaan suunnistaa kyseiseen kohteeseen. 	
+
+Ohjelmiston tulee pystyä toimimaan suurien käyttäjämäärien kuormituksessa.
+	Jos ohjelmalla on paljon yhtäaikaisia käyttäjiä, niin ohjelmiston tulee suoriutua tästä ongelmasta esim. lisäämällä kaistaa automaattisesti.
+
+Ohjelmistossa tulee olla epileptikko moodi.
+	Ohjelmistossa epileptikko moodi estää ohjelmistoa esittämästä sellaisia toimintoja, jotka saattaisivat laukaista käyttäjässä epilepsia kohtauksen.
+
+Ohjelmistosta on ilmaisversio ja maksullinen versio.
+	Ilmaisversiossa ohjelmisto on karvalakkimallia ja tuotto saadaan mainosten avulla. Maksullisessa versiossa on enemmän ominaisuuksia, eikä sisällä mainoksia.
+
+Ohjelmiston tulee olla helppokäyttöinen.
+	Ohjelmisto tulee olla intuitiivisesti helposti ymmärrettävä ja selkeä, jotta käyttäjien tuen tarve olisi mahdollisimman pieni.
+
+Ohjelmiston rahoitus tapahtuu pitkälti yrityksen omien investointien avulla.
+	Ohjelmistojen rahoitus tulee yrityksen omasta takaa, jolloin yrityksen omistajamäärää ei pyritä kasvattamaan.
+
+
+
