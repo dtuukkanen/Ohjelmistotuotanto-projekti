@@ -8,14 +8,14 @@ Miten toimii:
     Profiloi käyttäjiä
     Kysyy käyttäjältä tietoja 
     Valitsee ehdotukset käyttäjälle profiloinnin perusteella
-    Määrittää käyttäjän sijainnin, jos ei mahdollista, kysyy käyttäjän sijainnin
+    Määrittää käyttäjän sijainnin
     Hakee sijainnin säätiedot
     Osaa lukea avoimen lähdekoodin säädataa
     Toimii ennusteen perusteella
     Pystyy tulkitsemaan, erottelemaan ja luokittelemaan relevantin datan käyttäjän esittämistä kysymyksistä
-    Hakee internetistä tarvittaessa vastauksia käyttäjän kysymyksiin
-    Ohjelman tulisi pystyä hakemaan dataa avoimen koodin läheteistä
-    Ohjelman tulisi pystyä yhdistämään sijaintitiedot, säätirtoihin ja päättelemään niiden avulla sään halutulla alueella.
+    Hakee tekoälyn datatsta vastauksia käyttäjän kysymyksiin
+    Ohjelman tulee pystyä hakemaan dataa avoimen koodin läheteistä
+    Ohjelman tulee pystyä yhdistämään sijaintitiedot, säätietoihin ja päättelemään niiden avulla sää halutulla alueella.
 
 Mitä tekee:
     Tallentaa käyttäjän toiminnot GPX-tiedostoina
@@ -54,7 +54,7 @@ Mitkä vaatimukset:
     Android-yhteensopivuus
     iOS-yhteensopivuus
     Linux-yhteensopivuus
-    Toimii relevanteilla käyttöjärjestelmillä: IOS, Android, linux, grapheneOS...
+    GrapheneOS-yhteensopivuus
     Ei toimi vanhemmilla järjestelmillä kuin Android 8
     Ei toimi vanhemmilla järjestelmillä kuin iOS 11
 
@@ -64,16 +64,18 @@ Mitkä vaatimukset:
     Pacman-paketin hallinta järjestelmään
     Julkaistaan Google Play Storeen
     Julkaistaan Applen App Storeen
+    Julkaistaan verkkoon .apk tiedostona muille kuin Android laitteille
 
     # Vaatimukset sovelluksen käyttöön
     Sovellus vaatii verkon toimiakseen
-    Sovellus haluaa käyttää sijaintia
-    Ohjelmiston tulee pystyä toimimaan joustavasti eri käyttöliittymien välillä. Ohjelmistojen tulee pysytä välittämään dataa toisten käyttöjärjestelmien välillä, jotta ohjelmistoa olisi joustavampi käyttää eri laitteiden kanssa yhdessä.
-    Ohjelmiston tulee pystyä hyödyntämään Internet ja Bluetooth-yhteyttä. Ohjelmistojen tulee pystyä hyödyntämään mainittuja yhteyksiä, koska valtaosa datasta välitetään näiden yhteyksien avulla.	
-    Ohjelmiston tulee pystyä langattomaan tiedonsiirtoon. Ohjelmiston tulee pystyä langattomaan tiedonsiirtoon pääsääntöisesti Internet -yhteyden avulla ja joissakin tapauksissa Bluetooth yhteyden avulla, kuten esimerkiksi Bluetooth -kuulokkeilla kuunneltaessa.	
-    Ohjelmiston tulee pystyä hyödyntämään selaimen tai puhelimenkäyttöliittymän tarjoamia sijaintitietoja. Monet ohjelmiston ominaisuudet perustuvat siihen, että käyttäjä pystyy puhelimen sijaintitietojen avulla suunnistamaan ja etsimään sijainteja.	
-    Ohjelmiston tulee pystyä hyödyntämään AikaApuri ja KarttaApuri -ohjelmistojen ominaisuuksia. AikaApurilla saadaan selville yrityksien aukiolotiedot, jotta käyttäjän ei tarvitse käydä ovelta selvittelemässä aukioloaikoja. Samalla saadaan yrityksien osoitteet, jolloin KarttaApurilla voidaan suunnistaa kyseiseen kohteeseen. 	
-
+        Tiedot siirtyvät verkon kautta.
+    Sovellus vaatii sijaintitietoja
+        Monet ohjelmiston ominaisuudet perustuvat siihen, että käyttäjä pystyy puhelimen sijaintitietojen avulla suunnistamaan ja etsimään sijainteja.	
+    Sovelluksen tulee kyetä hyödyntämään AikaApuri ja KarttaApuri -ohjelmistoja
+        Ohjelmiston tulee pystyä hyödyntämään AikaApuri ja KarttaApuri -ohjelmistojen ominaisuuksia. AikaApurilla saadaan selville yrityksien aukiolotiedot, jotta käyttäjän ei tarvitse käydä ovelta selvittelemässä aukioloaikoja. Samalla saadaan yrityksien osoitteet, jolloin KarttaApurilla voidaan suunnistaa kyseiseen kohteeseen.
+    Yhteensopivuus käyttöjärjestelmien välillä ns. synkronointi
+        Ohjelmistojen tulee pysytä välittämään dataa toisten käyttöjärjestelmien välillä, jotta ohjelmistoa olisi joustavampi käyttää eri laitteiden kanssa yhdessä.
+    
     # Tietoturva
     Toimiva tietoturva
     Käsittelee asiakkaan tietoja voimassaolevien lakien ja säädösten mukaisesti
