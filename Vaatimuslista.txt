@@ -90,9 +90,9 @@ Millainen käyttöliittymän:
     Tumma teema
     Käyttöliittymästä yhtenäinen järjestelmien välillä
     Käyttäjälle ei tarjota ylimääräisiä muokkaus työkaluja
-    Kaikkien ominaisuuksien tulee näkyä etusivulla
+    Kaikkien ominaisuuksien tulee näkyä etusivulla, eli muutaman klikkauksen taktiikalla.
     Valikkomuotoinen rakenne
-    Työkaluja ei piiloteta syvälle valikkoihin
+    Työkaluja ei piiloteta syvälle valikkoihin, liittyy "kaikkien omin..."
     Palaute painike, jokaiseen kyselyyn, jos haku ei tuottanut haluttua tulosta käyttäjän mielestä
     Edistymispalkki, kun vastausta noudetaan
 
