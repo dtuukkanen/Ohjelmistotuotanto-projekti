@@ -1,0 +1,130 @@
+Miten toimii:
+    Tulee hakea tiedot Ilmatieteen laitoksen avoimesta datasta
+    Tekoäly toimii palvelimella
+    Skaalautuva palvelin
+    Käyttäjä saa valita lähetetäänkö telemetria tietoja kehittäjälle
+    Käyttäjä saa toimia halutessaan anonyymisti
+    Käyttäjä voi luoda käyttäjän, jolloin aikasemmat kysymykset, yleiset sijainnit ja yleiset kysymykset voi ehdottaa paremmin
+    Profiloi käyttäjiä
+    Kysyy käyttäjältä tietoja 
+    Valitsee ehdotukset käyttäjälle profiloinnin perusteella
+    Määrittää käyttäjän sijainnin, jos ei mahdollista, kysyy käyttäjän sijainnin
+    Hakee sijainnin säätiedot
+    Osaa lukea avoimen lähdekoodin säädataa
+    Toimii ennusteen perusteella
+    Pystyy tulkitsemaan, erottelemaan ja luokittelemaan relevantin datan käyttäjän esittämistä kysymyksistä
+    Hakee internetistä tarvittaessa vastauksia käyttäjän kysymyksiin
+    Ohjelman tulisi pystyä hakemaan dataa avoimen koodin läheteistä
+    Ohjelman tulisi pystyä yhdistämään sijaintitiedot, säätirtoihin ja päättelemään niiden avulla sään halutulla alueella.
+
+Mitä tekee:
+    Tallentaa käyttäjän toiminnot GPX-tiedostoina
+    Pitää listaa jo löydettyistä geokätköistä 
+    Näyttää kaupungin ulkoliikunta paikat. salit frisbiigolf radat
+    Erottelee maksavat ja ilmaisohjelmaa käyttävät käyttäjät eri statuksilla
+    Rajaa käyttäjälle avoimia ominaisuuksia käyttäjän statuksen mukaan
+    Pystyä träkkäämään ympäristöä ja hahmottamaan maan taso ja lisäämään ar-objekteja näytölle.
+    Hakee tietoa lähipaikkojen aukioloista netistä.
+    Määrittämään/käyttämään OSRM matka-ajan määrittämiseen.
+    Kertomaan missä on lähin ravintola tai kulttuuripaikka.
+    Yhdistämään haluttu säätila halutun kohteen(ravintola, terassi yms.) aukiolo ajan kanssa.
+    Kerää geokätöjen sijainteja yleiseen levitykseen.
+    Kerää dataa geokätköjen tarvikkeiden täydennys tarpeesta. 
+    Laskea mihin kohteisiin kerkeät kohteen aukioloaikana nykyisestä sijainnista halutulla kulkuvälineellä.
+    Luokittelee kohteita viihdepalveluihin, ruokapaikkoihin,
+    Luoda mahdollisia ”kokemusreittejä” halutuilla rajaukislla. Onko lapsia, haluuako vierailla kulttuuripaikoissa vai enemmän toiminnallisissa. esim hiekkalinna. Jos haluaa vaikka mennä hiekkalinnaan, niin näyttää hiekkalinnaa lähellä olevat ruokapaikat ja aukioloajat.	
+    Määritellä ruokailupaikkoja eri luokkiin. pikaruoka, ravintola, kioski jne.
+    Manuaalisesti päivitettynynä kertoa ne ravintolat joissa on ”lapsiystävällisiä” annoksia. ja suositellla niitä jos niin on määritelty.
+    Tallentaa käyttäjän lenkkipolun halutessaan ja esim ajan. jotta käyttäjä voi vertailla lenkkiakojaan.
+    Kerää dataa käyttäjistä. Seurueen koko. Onko lapsia. Ikähaarukka.
+    Ehdottaa reittejä perustuen  samoilla seurueen spekseillä oleviin aikaisempiin reitteihin.
+    Kertoa mitkä paikat ovat minkäkin ikä ryhmän suosiossa. 
+    Paikoissa jossa voi joitua jonottamaan on paikkadatan avulla aukeava yksinkertainen minipeli jota voi pelata vain siinä paikassa kuluttaakseen jonotus aikaa. Tulokset tallentuisivat listaan kaikkien nähtäville. 
+    Ohjelmiston tulee toimia kaikissa Internet selaimissa. Ohjelmiston tulee tukea jokaista Internet selainta tietokoneella käytettäessä, jotta ihmiset voivat kotoa suunnitella haluamaansa ajanvietettä ennakkoon.	
+
+Miten käytetään:
+    Merkata geokätköjä
+    
+
+Mitkä vaatimukset:
+    # Laitevaatimukset
+    Ohjelmiston tulee toimia kaikissa puhelinkäyttöjärjestelmissä. Ohjelmiston tulee tukea Android, iOS, Linux ja muita suosittuja puhelinkäyttöjärjestelmiä, jotta ohjelmisto olisi saatavilla mahdollisimman monelle ihmiselle puhelimesta.
+    Ohjelman tulisi toimia kännykällä
+    ARM-pohjaisten laitteiden tuki
+    Android-yhteensopivuus
+    iOS-yhteensopivuus
+    Linux-yhteensopivuus
+    Toimii relevanteilla käyttöjärjestelmillä: IOS, Android, linux, grapheneOS...
+    Ei toimi vanhemmilla järjestelmillä kuin Android 8
+    Ei toimi vanhemmilla järjestelmillä kuin iOS 11
+
+    # Julkaisupaikat
+    APT-paketin hallinta järjestelmään
+    RPM-paketin hallinta järjestelmään
+    Pacman-paketin hallinta järjestelmään
+    Julkaistaan Google Play Storeen
+    Julkaistaan Applen App Storeen
+
+    # Vaatimukset sovelluksen käyttöön
+    Sovellus vaatii verkon toimiakseen
+    Sovellus haluaa käyttää sijaintia
+    Ohjelmiston tulee pystyä toimimaan joustavasti eri käyttöliittymien välillä. Ohjelmistojen tulee pysytä välittämään dataa toisten käyttöjärjestelmien välillä, jotta ohjelmistoa olisi joustavampi käyttää eri laitteiden kanssa yhdessä.
+    Ohjelmiston tulee pystyä hyödyntämään Internet ja Bluetooth-yhteyttä. Ohjelmistojen tulee pystyä hyödyntämään mainittuja yhteyksiä, koska valtaosa datasta välitetään näiden yhteyksien avulla.	
+    Ohjelmiston tulee pystyä langattomaan tiedonsiirtoon. Ohjelmiston tulee pystyä langattomaan tiedonsiirtoon pääsääntöisesti Internet -yhteyden avulla ja joissakin tapauksissa Bluetooth yhteyden avulla, kuten esimerkiksi Bluetooth -kuulokkeilla kuunneltaessa.	
+    Ohjelmiston tulee pystyä hyödyntämään selaimen tai puhelimenkäyttöliittymän tarjoamia sijaintitietoja. Monet ohjelmiston ominaisuudet perustuvat siihen, että käyttäjä pystyy puhelimen sijaintitietojen avulla suunnistamaan ja etsimään sijainteja.	
+    Ohjelmiston tulee pystyä hyödyntämään AikaApuri ja KarttaApuri -ohjelmistojen ominaisuuksia. AikaApurilla saadaan selville yrityksien aukiolotiedot, jotta käyttäjän ei tarvitse käydä ovelta selvittelemässä aukioloaikoja. Samalla saadaan yrityksien osoitteet, jolloin KarttaApurilla voidaan suunnistaa kyseiseen kohteeseen. 	
+
+    # Tietoturva
+    Toimiva tietoturva
+    Käsittelee asiakkaan tietoja voimassaolevien lakien ja säädösten mukaisesti
+    Ohjelmiston selainpohjaisen käyttöliittymän tulee ilmoittaa evästeistä EU:n alueella. EU:n lakimuutosten myötä, kaikkien Internet -sivujen, jotka käyttävät evästeitä, joutuvat ilmoittamaan tästä käyttäjällensä heti Internet -sivua avattaessa.	
+    Ohjelmiston tulee noudattaa EU:n asettamia tietoturvalakeja. 2025 tulee voimaan uudet tietoturvalait EU:n alueella, joidenka myötä ohjelmistojen tulee täyttää lain määrittämät tietoturvavaatimukset.	
+
+    # Muut vaatimukset
+    Ohjelmiston tulee pystyä toimimaan muiden ohjelmistojen/tiedostomuotojen kanssa. Ohjelmistoon voidaan lähettää eri tiedostomuotoisia tiedostoja muista ohjelmista, jolloin ohjelmiston tulisi kyetä käsittelemään näitä tiedostoja.	Ohjelmistossa tulisi ilmoittaa selvästi, mitä tiedostoja tuetaan.
+
+Millainen käyttöliittymän:
+    UI simppeliksi
+    Vaalea teema
+    Tumma teema
+    Käyttöliittymästä yhtenäinen järjestelmien välillä
+    Käyttäjälle ei tarjota ylimääräisiä muokkaus työkaluja
+    Kaikkien ominaisuuksien tulee näkyä etusivulla
+    Valikkomuotoinen rakenne
+    Työkaluja ei piiloteta syvälle valikkoihin
+    Palaute painike, jokaiseen kyselyyn, jos haku ei tuottanut haluttua tulosta käyttäjän mielestä
+    Edistymispalkki, kun vastausta noudetaan
+
+Miten tehdään:
+    Toteutetaan Flutterilla
+    Ohjelmistokielenä Dart
+    GitHub versiohallintaan
+    Karttapalveluna OpenStreetMap
+    OSRM matkan pituuksiin
+    Kehittäjä ylläpitää sovellusta
+    X miljoonan budjetti
+
+### Listasta tuodaan ###
+*** Daniel ***
+
+*** Hannes ***
+
+*** Jesperi ***
+
+*** Sami ***
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
