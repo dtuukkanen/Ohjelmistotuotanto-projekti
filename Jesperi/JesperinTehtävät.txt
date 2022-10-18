@@ -47,4 +47,8 @@ määrittää puhelimen asento qyroskoopin avulla ja siten ohjata oikeaan suunta
 
 väri korjaus tila
 
-arvostelut google mapsista
+arvostelut paikoille  google mapsista
+
+näyttää matkailuautoparkkipaikat.
+
+suositella lähintä parkki aluetta määritetyn kohteen läheltä.  Data open street datasta. kts esim tarinasoitin.frisbiigolf
