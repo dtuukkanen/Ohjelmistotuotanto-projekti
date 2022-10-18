@@ -41,3 +41,14 @@ kertoa mitkä paikat ovat minkäkin ikä ryhmän suosiossa.
 näyttää kaupungin ulkoliikunta paikat. salit frisbiigolf radat
 
 paikoissa jossa voi joitua jonottamaan on paikkadatan avulla aukeava yksinkertainen minpeli jota voi pelata vain siinä paikassa kuluttaakseen jonotus aikaa. Tulokset tallentuisivat listaan kaikkien nähtäville. 
+
+peli: aarteen metsästys. puhelimen kompassi. ”jack sparrow” kompassi. näyttää suunnan sinne missä aarre on. varoittaa teistä. aarteen metsästys tiettynä aikana?. Ei oikeaa aarretta, mutta puhelin ilmoittaa kun olet aarteen päällä. aarteet haluttujen paikkoijen lähellä. eli ns sidequest. 
+määrittää puhelimen asento qyroskoopin avulla ja siten ohjata oikeaan suuntaa edellämainitussa pelissä.
+
+väri korjaus tila
+
+arvostelut paikoille  google mapsista
+
+näyttää matkailuautoparkkipaikat.
+
+suositella lähintä parkki aluetta määritetyn kohteen läheltä.  Data open street datasta. kts esim tarinasoitin.frisbiigolf
