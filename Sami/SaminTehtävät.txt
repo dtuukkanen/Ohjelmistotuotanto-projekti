@@ -1,6 +1,5 @@
 Ohjelmiston tulee toimia kaikissa puhelinkäyttöjärjestelmissä.
 	Ohjelmiston tulee tukea Android, iOS, Linux ja muita suosittuja puhelinkäyttöjärjestelmiä, jotta ohjelmisto olisi saatavilla mahdollisimman monelle ihmiselle puhelimesta.
-	
 Ohjelmiston tulee toimia kaikissa Internet selaimissa.
 	Ohjelmiston tulee tukea jokaista Internet selainta tietokoneella käytettäessä, jotta ihmiset voivat kotoa suunnitella haluamaansa ajanvietettä ennakkoon.	
 Ohjelmiston tulee pystyä toimimaan joustavasti eri käyttöliittymien välillä.
@@ -14,7 +13,9 @@ Ohjelmiston selainpohjaisen käyttöliittymän tulee ilmoittaa evästeistä EU:n
 Ohjelmiston tulee noudattaa EU:n asettamia tietoturvalakeja.
 	2025 tulee voimaan uudet tietoturvalait EU:n alueella, joidenka myötä ohjelmistojen tulee täyttää lain määrittämät tietoturvavaatimukset.	
 Ohjelmiston tulee pystyä toimimaan muiden ohjelmistojen/tiedostomuotojen kanssa.
-	Ohjelmistoon voidaan lähettää eri tiedostomuotoisia tiedostoja muista ohjelmista, jolloin ohjelmiston tulisi kyetä käsittelemään näitä tiedostoja.	Ohjelmistossa tulisi ilmoittaa selvästi, mitä tiedostoja tuetaan.
+	Ohjelmistoon voidaan lähettää eri tiedostomuotoisia tiedostoja muista ohjelmista, jolloin ohjelmiston tulisi kyetä käsittelemään näitä tiedostoja.
+		Ohjelmistossa tulisi ilmoittaa selvästi, mitä tiedostoja tuetaan.
 Ohjelmiston tulee pystyä hyödyntämään selaimen tai puhelimenkäyttöliittymän tarjoamia sijaintitietoja.
 	Monet ohjelmiston ominaisuudet perustuvat siihen, että käyttäjä pystyy puhelimen sijaintitietojen avulla suunnistamaan ja etsimään sijainteja.	
-Ohjelmiston tulee pystyä hyödyntämään AikaApuri ja KarttaApuri -ohjelmistojen ominaisuuksia.	AikaApurilla saadaan selville yrityksien aukiolotiedot, jotta käyttäjän ei tarvitse käydä ovelta selvittelemässä aukioloaikoja. Samalla saadaan yrityksien osoitteet, jolloin KarttaApurilla voidaan suunnistaa kyseiseen kohteeseen. 	
+Ohjelmiston tulee pystyä hyödyntämään AikaApuri ja KarttaApuri -ohjelmistojen ominaisuuksia.
+	AikaApurilla saadaan selville yrityksien aukiolotiedot, jotta käyttäjän ei tarvitse käydä ovelta selvittelemässä aukioloaikoja. Samalla saadaan yrityksien osoitteet, jolloin KarttaApurilla voidaan suunnistaa kyseiseen kohteeseen. 	
