@@ -4,6 +4,28 @@ Ohjelmistojen tulee vaatia korkeintaan 2 gb keskusmuistia ja korkeintaan 1 gb oh
 Ohjelmisto tukee laitteistoja, joiden näytön resoluutio on vähintään 1024*768.
 	Ohjelmisto on optimoitu Full-HD näytöille, mutta toimii alemmilla ja korkeimmillakin resoluutioilla.
 
+Ohjelmistosuunnittelussa otettava huomioon potentiaaliset uudet käyttöjärjestelmät
+	Selvitettävä, että onko esim. Android tai iOS saamassa uusia suuria muutoksia käyttöjärjestelmiinsä, jotta nykyisillä käyttöjärjestelmillä toimiva ohjelmisto toimisi myös uusissa.
+
+Ohjelmistosuunnittelussa selvitettävä, mitkä asiat eivät välttämättä ole ajankohtaisia enää lähitulevaisuudessa.
+	Ohjelmistot ja järjestelmät sekä työkalut kehittyvät kokoajan, joten aikansa eläneitä asioita ei kannata sisällyttää ohjelmistotuotannossa.
+
+Ohjelmistosuunnittelussa selvitettävä, mitä ei pystytä toteuttamaan kyseisillä resursseilla.
+	Resurssit ovat rajalliset ja kaikkia mahdollisia asiakaspyyntöjä ei pystytä toteuttamaan nykyteknologialla.
+
+Ohjelmistosuunnittelussa selvitettävä, mitä käyttäjä ei toivo ohjelmistolta.
+	Selvitettävä perusteellisesti, mitä käyttäjä ei toivo ohjelmistolta, jotta kyseisiin asioihin ei käytettäisi resursseja turhaan.
+		Jos käyttäjät eivät osaa antaa rakentavaa palautetta, niin keksittävä keinoja joilla sitä saadaan käyttäjiltä.
+
+Ohjelmistosuunnittelussa selvitettävä, mitä käyttäjän on kerrottava tai toimitettava ohjelmistoon ennen sen käyttöä.
+	Esim. tilin luonti, yhteystiedot jne.
+
+Ohjelmistosuunnittelussa selvitettävä, että kaikki sidosryhmät ja ohjelmistotuottajat näkevät asiat mahdollisimman samasta näkökulmasta.
+	Esim. tehokkuus tarkoittaa jokaiselle ihmisille hieman eri asiaa.
+
+Ohjelmistosuunnittelussa selvitettävä, mitä kilpailijat tarjoavat.
+	Tehtävä tutkimusta kilpailevista ohjelmistoista.
+
 Ohjelmistossa kertyvä data tallentuu pääsääntöisesti pilvipalveluun.
 	Jotta oheismuisti ei täyttyisi samantien, niin ohjelmistossa kertyvä data tallentuu pilvipalvelimeen, mutta halutessaan myös käyttäjän laitteeseen.
 
@@ -53,12 +75,18 @@ Ohjelmiston päivittäminen tapahtuu puhelimissa sovelluskauppojen kautta ja sel
 	Puhelimissa olevien sovelluskauppojen, josta sovellus on ladattu voidaan päivittää ohjelmisto. Selaimissa ohjelmisto päivittyy automaattisesti ilman päivitysten lataamista.
 		Päivittäminen vaatii internet-yhteyden. Sovellus saattaa lakata toimimasta, jos ohjelmistoa ei päivitetä riittävän usein.
 
+Ohjelmiston bugien löytämiseen voidaan käyttää TLA+ -kieltä.
+	TLA+ on korkean tason kieli, jolla voidaan mallintaa ohjelmistoja ja järjestelmiä. TLA+ on suunniteltu löytämään bugeja ohjelmistoista.
+
 Ohjelmiston poistaminen tapahtuu sovelluskaupassa.
 	Ohjelmiston voi poistaa puhelimesta sovelluskaupan sovelluksen avulla.
 
 Ohjelmiston tulee pystyä toimimaan muiden ohjelmistojen/tiedostomuotojen kanssa.
 	Ohjelmistoon voidaan lähettää eri tiedostomuotoisia tiedostoja muista ohjelmista, jolloin ohjelmiston tulisi kyetä käsittelemään näitä tiedostoja.
 		Ohjelmistossa tulisi ilmoittaa selvästi, mitä tiedostoja tuetaan.
+
+Ohjelmiston käyttöliittymää voi muokata.
+	Ohjelmiston käyttöliittymää voi muokata hieman, kuten esim. muuttamalla taustan värejä, fontteja, skaalaa jne.
 
 Ohjelmiston tulee pystyä hyödyntämään selaimen tai puhelimenkäyttöliittymän tarjoamia sijaintitietoja.
 	Monet ohjelmiston ominaisuudet perustuvat siihen, että käyttäjä pystyy puhelimen sijaintitietojen avulla suunnistamaan ja etsimään sijainteja.	
@@ -106,7 +134,18 @@ Ohjelmistolle tulee olla tekninen tuki.
 	Teknisestä tuesta käyttäjä saa tietoja ja apua ongelmatilanteisiin. Tekniseen tukeen saadaan yhteys soittamalla, sähköpostilla tai live-chatilla/puhelulla.
 		Vain suomenkielinen tekninen tuki tarjolla alustavasti.
 
+Ohjelmiston tekninen tuki ja päivitykset tulee olla tarjolla vähintään X vuotta julkaisusta.
+	Käyttäjämääristä riippumatta teknisen tuen tulee olla tarjolla käyttäjille ja päivityksiä tulee tapahtua säännöllisesti.
+		Teknisen tuen suuruutta ja päivitystahtia voidaan muuttaa joustavasti.
 
+Ohjelmistoversion päivitys tapahtuu korkeintaan kuukauden sykleissä.
+	Jotta käyttäjäpalaute tai bugit saadaan nopeasti korjattua, niin ohjelmiston päivitys tulee tapahtua joustavasti, eli seuraavan version on oltava ulkona kuukauden sisällä.
+
+Ohjelmisto on työkalu vapaa-ajan suunnitteluun.
+	Ohjelmistoa voidaan käytää apuna retken suunnittelussa, geokätköjen löytämisessä, illallispaikan löytämisessä, tapahtumien löytämisessä, säätietojen löytämisessä, aukiolojen löytämiseen jne.
+
+Ohjelmiston toimintaa kuvataan asiakkaille ja sidosryhmille UML-kaavioiden avulla.
+	UML-kaavioiden avulla voidaan saada yhteisymmärrys eri tekijöiden kanssa helpommin, jolloin säästetään resursseja ja väärinymmärryksiä.
 
 
 
