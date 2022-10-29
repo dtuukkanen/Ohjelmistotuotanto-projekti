@@ -59,11 +59,20 @@ Ohjelmiston tulee noudattaa EU:n asettamia tietoturvalakeja.
 Ohjelmiston tulee olla tietoturvallinen.
 	Ohjelmisto ei saa jakaa käyttäjätietoja muiden tahojen kanssa, paitsi jos käyttäjä antaa luvan.
 
+Tietovuodon havaittaessa ohjelmiston on ilmoittettava käyttäjille siitä mahdollisimman nopeasti.
+	Ohjelmisto ilmoittaa sisäänrakennetulla viestivälityksellä tai esim. sähköpostilla ja kerrottava suositeltavat toimenpiteet (esim. salasanan vaihto).
+
+Uusien päivitysten saapuessa ohjelmisto ilmoittaa käyttäjille ajoissa.
+	Tärkeimmät päivitykset ilmoitetaan ainakin ohjelmistossa, mutta ei niin tärkeät päivitykset voidaan ilmoittaa käyttäjän niin valitessa.
+
+Päivityskatkoista ohjelmistossa ilmoitetaan käyttäjille ajoissa.
+	Esim. sisään rakennetulla viestillä tai sähköpostilla.
+
 Ohjelmiston tulee antaa keräämänsä data käyttäjän nähtäville.
 	Jos käyttäjä haluaa tietää, mitä dataa ohjelmisto kerää, niin käyttäjällä tulee olla mahdollisuus sen näkemiseen.
 
 Ohjelmistossa tulee olla mahdollisuus poistaa kaikki käyttäjän tuoma data.
-	Jos käyttäjä lopettaa ohjelmiston käytön, niin käyttäjällä tulee olla mahdollisuus poistaa omat käyttäjätietonsa.
+	Jos käyttäjä lopettaa ohjelmiston käytön (kuolee), niin käyttäjällä tai omaisilla tulee olla mahdollisuus poistaa omat käyttäjätietonsa.
 
 Ohjelmistossa tulee olla varkaudenesto.
 	Käytännössä, jos esim. puhelin varastetaan, niin omistaja voi selaimen kautta poistaa käyttäjätiedot tai paikantaa laitteen.
