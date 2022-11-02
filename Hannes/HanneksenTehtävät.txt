@@ -1,5 +1,6 @@
 profiloi käyttäjiä
-valitsee ehdotukset käyttäjälle profiloinnin perusteella
+    muistaa käyttäjän aiemmat pyynnöt ja valinnat
+    ehdottaa samankaltaisia vaihtoehtoja
 kysyy käyttäjältä tietoja 
 määrittää käyttäjän sijainnin
 jos ei mahdollista, kysyy käyttäjän sijainnin
