@@ -46,7 +46,6 @@ Miten käytetään:
 Mitkä vaatimukset:
     # Laitevaatimukset
     Ohjelmiston tulee toimia kaikissa puhelinkäyttöjärjestelmissä. Ohjelmiston tulee tukea Android, iOS, Linux ja muita suosittuja puhelinkäyttöjärjestelmiä, jotta ohjelmisto olisi saatavilla mahdollisimman monelle ihmiselle puhelimesta.
-    Ohjelman tulisi toimia kännykällä
     ARM-pohjaisten laitteiden tuki
     Android-yhteensopivuus
     iOS-yhteensopivuus

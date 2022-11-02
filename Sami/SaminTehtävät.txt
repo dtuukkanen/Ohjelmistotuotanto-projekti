@@ -10,6 +10,9 @@ Ohjelmistosuunnittelussa otettava huomioon potentiaaliset uudet käyttöjärjest
 Ohjelmistosuunnittelussa selvitettävä, mitkä asiat eivät välttämättä ole ajankohtaisia enää lähitulevaisuudessa.
 	Ohjelmistot ja järjestelmät sekä työkalut kehittyvät kokoajan, joten aikansa eläneitä asioita ei kannata sisällyttää ohjelmistotuotannossa.
 
+Ohjelmistosuunnittelussa selvitettävä, miten ohjelmiston kehitys tai ylläpito ajetaan ales.
+	Jos ohjelmiston tuottaminen tai ylläpitäminen osoittautuu kannattamattomaksi, niin on oltava suunnitelma, miten se tehdään kustannustehokkaasti.
+
 Ohjelmistosuunnittelussa selvitettävä, mitä ei pystytä toteuttamaan kyseisillä resursseilla.
 	Resurssit ovat rajalliset ja kaikkia mahdollisia asiakaspyyntöjä ei pystytä toteuttamaan nykyteknologialla.
 
@@ -25,6 +28,12 @@ Ohjelmistosuunnittelussa selvitettävä, että kaikki sidosryhmät ja ohjelmisto
 
 Ohjelmistosuunnittelussa selvitettävä, mitä kilpailijat tarjoavat.
 	Tehtävä tutkimusta kilpailevista ohjelmistoista.
+
+Ohjelmistosuunnittelussa selvitettävä, mitä yllättäviä riskejä ohjelmistontuotanto saattaa sisältää.
+	Selvitettävä kaikki mahdolliset tunnetut riskit, jotka saattavat aiheuttaa ohjelmistotuotannon ennenaikaisen päättymisen.
+
+Ohjelmisto suunniteltava niin, että siitä on helppo poistaa turhia osia.
+	Jos ohjelmistossa huomataan jonkun ominaisuuden olevan turha, niin sen tulisi olla helppo poistaa ilman, että se rikkoo koko ohjelmistoa.
 
 Ohjelmistossa kertyvä data tallentuu pääsääntöisesti pilvipalveluun.
 	Jotta oheismuisti ei täyttyisi samantien, niin ohjelmistossa kertyvä data tallentuu pilvipalvelimeen, mutta halutessaan myös käyttäjän laitteeseen.
@@ -68,6 +77,9 @@ Uusien päivitysten saapuessa ohjelmisto ilmoittaa käyttäjille ajoissa.
 Päivityskatkoista ohjelmistossa ilmoitetaan käyttäjille ajoissa.
 	Esim. sisään rakennetulla viestillä tai sähköpostilla.
 
+Ohjelmistosta tulee olla mahdollisuus antaa palautetta.
+	Käyttäjät voivat antaa palautetta ohjelmistosta sovelluskaupassa tai ohjelmistossa.
+
 Ohjelmiston tulee antaa keräämänsä data käyttäjän nähtäville.
 	Jos käyttäjä haluaa tietää, mitä dataa ohjelmisto kerää, niin käyttäjällä tulee olla mahdollisuus sen näkemiseen.
 
@@ -94,7 +106,7 @@ Ohjelmiston tulee pystyä toimimaan muiden ohjelmistojen/tiedostomuotojen kanssa
 	Ohjelmistoon voidaan lähettää eri tiedostomuotoisia tiedostoja muista ohjelmista, jolloin ohjelmiston tulisi kyetä käsittelemään näitä tiedostoja.
 		Ohjelmistossa tulisi ilmoittaa selvästi, mitä tiedostoja tuetaan.
 
-Ohjelmiston käyttöliittymää voi muokata.
+Ohjelmiston käyttöliittymää voi muokata vähän.
 	Ohjelmiston käyttöliittymää voi muokata hieman, kuten esim. muuttamalla taustan värejä, fontteja, skaalaa jne.
 
 Ohjelmiston tulee pystyä hyödyntämään selaimen tai puhelimenkäyttöliittymän tarjoamia sijaintitietoja.
@@ -155,6 +167,11 @@ Ohjelmisto on työkalu vapaa-ajan suunnitteluun.
 
 Ohjelmiston toimintaa kuvataan asiakkaille ja sidosryhmille UML-kaavioiden avulla.
 	UML-kaavioiden avulla voidaan saada yhteisymmärrys eri tekijöiden kanssa helpommin, jolloin säästetään resursseja ja väärinymmärryksiä.
+
+Ohjelmistosta tulee tehdä dokumentaatiota ohjelmistoa kehitettäessä.
+	Dokumentaatioon kirjaataan ylös mitä on tehty, milloin on tehty, kuka on tehnyt. Dokumentaation on oltava riittävän tarkka ja ymmärrettävä, jotta muutkin ihmiset pystyvät hyödyntämään sitä.
+
+
 
 
 
