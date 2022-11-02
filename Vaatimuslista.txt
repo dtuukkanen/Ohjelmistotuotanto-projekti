@@ -154,4 +154,16 @@ Ominaisuuksia:
         Toimii sekä tulkitsemalla käyttäjän syötettä tai "speech to text" ohjelman avulla.
         Tarkistaa ensin, onko vastaako jokin ohjelmiston ominaisuus käyttäjän kysymykseen.
         Jos ohjelmisto ei itse vastaa, hakee vastausta internetistä.
-        
+        Luokittelee käyttäjän kysymykset luokkiin ja toimii sen mukaisesti,  esim: 
+            palveluhaku: "missä on lähin pizzeria" -> 
+                kartta-apuri:
+                    haku: 
+                        "pizzeria" etäisyys: min
+                        return:
+                            Esim: kolmen lähimmän pizzerian tiedot ja sijainti kartalla.
+                    valinta:
+                        käyttäjä valitsee navigoinnin valittuun vaihtoehtoon:
+                    navigointi:
+                        apuri laskee parhaan reitin kohteelle.
+                close
+            close
