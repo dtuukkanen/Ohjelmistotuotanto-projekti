@@ -52,3 +52,34 @@ arvostelut paikoille  google mapsista
 näyttää matkailuautoparkkipaikat.
 
 suositella lähintä parkkialuetta määritetyn kohteen läheltä.  Data open street datasta. kts esim tarinasoitin.frisbiigolf.
+
+
+KÄYTTÖTAPAUS KUVAUKSET
+
+
+Nimi ja versio 
+ Käyttäjä tarkistaa sään haluamassaan kohteessa
+
+Suorittajat 
+ Käyttäjä
+
+
+Esiehdot  
+ käyttäjällä pitää olla tarve tarkistaa sää halutussa kohteessa.
+
+
+Kuvaus 
+ Käyttäjä avaa kartta välilehden. Zoomaa haluamansa kohteen kohdalle. Klikkaa kohdetta. Kohteen info ponnahdusikkuna aukeaa. käyttäjä klikkaa "Sää"-nappia ja sovellus avaa sää graaffin.
+
+Poikkeukset    
+ Käyttäjä ei voi hakea sää tietoa suomen ulkopuolelta.
+ 
+
+Lopputulos 
+ Käyttäjä sai haluamansa tiedon.
+ 
+
+Muut vaatimukset 
+
+ 
+
