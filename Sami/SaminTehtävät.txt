@@ -1,8 +1,13 @@
-Ohjelmistojen tulee vaatia korkeintaan 2 gb keskusmuistia ja korkeintaan 1 gb oheismuistia.
+Laitevaatimukset:
+
+Ohjelmistojen tulee vaatia korkeintaan 1 gb keskusmuistia ja korkeintaan 1 gb oheismuistia.
 	Ohjelmisto tuskin tulee vaatimaan näin paljon kumpaakaan muistia, mutta ohjelmiston tulee olla varautunut tähän mahdollisuuteen.
 
 Ohjelmisto tukee laitteistoja, joiden näytön resoluutio on vähintään 1024*768.
 	Ohjelmisto on optimoitu Full-HD näytöille, mutta toimii alemmilla ja korkeimmillakin resoluutioilla.
+
+
+Suunnitteluvaatimukset:
 
 Ohjelmistosuunnittelussa otettava huomioon potentiaaliset uudet käyttöjärjestelmät
 	Selvitettävä, että onko esim. Android tai iOS saamassa uusia suuria muutoksia käyttöjärjestelmiinsä, jotta nykyisillä käyttöjärjestelmillä toimiva ohjelmisto toimisi myös uusissa.
@@ -32,8 +37,11 @@ Ohjelmistosuunnittelussa selvitettävä, mitä kilpailijat tarjoavat.
 Ohjelmistosuunnittelussa selvitettävä, mitä yllättäviä riskejä ohjelmistontuotanto saattaa sisältää.
 	Selvitettävä kaikki mahdolliset tunnetut riskit, jotka saattavat aiheuttaa ohjelmistotuotannon ennenaikaisen päättymisen.
 
-Ohjelmisto suunniteltava niin, että siitä on helppo poistaa turhia osia.
+Ohjelmisto suunniteltava niin, että siitä on helppo päivittää.
 	Jos ohjelmistossa huomataan jonkun ominaisuuden olevan turha, niin sen tulisi olla helppo poistaa ilman, että se rikkoo koko ohjelmistoa.
+
+
+Ohjelmistovaatimukset:
 
 Ohjelmistossa kertyvä data tallentuu pääsääntöisesti pilvipalveluun.
 	Jotta oheismuisti ei täyttyisi samantien, niin ohjelmistossa kertyvä data tallentuu pilvipalvelimeen, mutta halutessaan myös käyttäjän laitteeseen.
@@ -58,53 +66,6 @@ Ohjelmiston tulee voida yhdistämään älykelloon.
 
 Ohjelmistoon voidaan tuoda paikkatietoja ja merkintöjä älykelloista.
 	Esimerkiksi, jos älykello on yhdistetty ohjelmistoon, niin älykellon avulla voidaan tallentaa tietoja ViihdeApuri -ohjelmistoon.
-
-Ohjelmiston selainpohjaisen käyttöliittymän tulee ilmoittaa evästeistä EU:n alueella.
-	EU:n lakimuutosten myötä, kaikkien Internet -sivujen, jotka käyttävät evästeitä, joutuvat ilmoittamaan tästä käyttäjällensä heti Internet -sivua avattaessa.	
-
-Ohjelmiston tulee noudattaa EU:n asettamia tietoturvalakeja.
-	2025 tulee voimaan uudet tietoturvalait EU:n alueella, joidenka myötä ohjelmistojen tulee täyttää lain määrittämät tietoturvavaatimukset.	
-
-Ohjelmiston tulee olla tietoturvallinen.
-	Ohjelmisto ei saa jakaa käyttäjätietoja muiden tahojen kanssa, paitsi jos käyttäjä antaa luvan.
-
-Tietovuodon havaittaessa ohjelmiston on ilmoittettava käyttäjille siitä mahdollisimman nopeasti.
-	Ohjelmisto ilmoittaa sisäänrakennetulla viestivälityksellä tai esim. sähköpostilla ja kerrottava suositeltavat toimenpiteet (esim. salasanan vaihto).
-
-Uusien päivitysten saapuessa ohjelmisto ilmoittaa käyttäjille ajoissa.
-	Tärkeimmät päivitykset ilmoitetaan ainakin ohjelmistossa, mutta ei niin tärkeät päivitykset voidaan ilmoittaa käyttäjän niin valitessa.
-
-Päivityskatkoista ohjelmistossa ilmoitetaan käyttäjille ajoissa.
-	Esim. sisään rakennetulla viestillä tai sähköpostilla.
-
-Ohjelmistosta tulee olla mahdollisuus antaa palautetta.
-	Käyttäjät voivat antaa palautetta ohjelmistosta sovelluskaupassa tai ohjelmistossa.
-
-Ohjelmiston tulee antaa keräämänsä data käyttäjän nähtäville.
-	Jos käyttäjä haluaa tietää, mitä dataa ohjelmisto kerää, niin käyttäjällä tulee olla mahdollisuus sen näkemiseen.
-
-Ohjelmistossa tulee olla mahdollisuus poistaa kaikki käyttäjän tuoma data.
-	Jos käyttäjä lopettaa ohjelmiston käytön (kuolee), niin käyttäjällä tai omaisilla tulee olla mahdollisuus poistaa omat käyttäjätietonsa.
-
-Ohjelmistossa tulee olla varkaudenesto.
-	Käytännössä, jos esim. puhelin varastetaan, niin omistaja voi selaimen kautta poistaa käyttäjätiedot tai paikantaa laitteen.
-
-Ohjelmistossa tulee olla kaksivaiheinen tunnistus.
-	Esim. Google Authenticatorin avulla voidaan toteuttaa kaksivaiheinen tunnistus.
-
-Ohjelmiston päivittäminen tapahtuu puhelimissa sovelluskauppojen kautta ja selaimissa automaattisesti.
-	Puhelimissa olevien sovelluskauppojen, josta sovellus on ladattu voidaan päivittää ohjelmisto. Selaimissa ohjelmisto päivittyy automaattisesti ilman päivitysten lataamista.
-		Päivittäminen vaatii internet-yhteyden. Sovellus saattaa lakata toimimasta, jos ohjelmistoa ei päivitetä riittävän usein.
-
-Ohjelmiston bugien löytämiseen voidaan käyttää TLA+ -kieltä.
-	TLA+ on korkean tason kieli, jolla voidaan mallintaa ohjelmistoja ja järjestelmiä. TLA+ on suunniteltu löytämään bugeja ohjelmistoista.
-
-Ohjelmiston poistaminen tapahtuu sovelluskaupassa.
-	Ohjelmiston voi poistaa puhelimesta sovelluskaupan sovelluksen avulla.
-
-Ohjelmiston tulee pystyä toimimaan muiden ohjelmistojen/tiedostomuotojen kanssa.
-	Ohjelmistoon voidaan lähettää eri tiedostomuotoisia tiedostoja muista ohjelmista, jolloin ohjelmiston tulisi kyetä käsittelemään näitä tiedostoja.
-		Ohjelmistossa tulisi ilmoittaa selvästi, mitä tiedostoja tuetaan.
 
 Ohjelmiston käyttöliittymää voi muokata vähän.
 	Ohjelmiston käyttöliittymää voi muokata hieman, kuten esim. muuttamalla taustan värejä, fontteja, skaalaa jne.
@@ -131,12 +92,6 @@ Ohjelmistosta on ilmaisversio ja maksullinen versio.
 Ohjelmiston tulee olla helppokäyttöinen.
 	Ohjelmisto tulee olla intuitiivisesti helposti ymmärrettävä ja selkeä, jotta käyttäjien tuen tarve olisi mahdollisimman pieni.
 
-Ohjelmiston rahoitus tapahtuu pitkälti yrityksen omien investointien avulla.
-	Ohjelmistojen rahoitus tulee yrityksen omasta takaa, jolloin yrityksen omistajamäärää ei pyritä kasvattamaan.
-
-Ohjelmistoa käytetään kosketusnäytön tai hiiren avulla suurelta osin.
-	Jos ohjelmistoa käytetään tabletilla tai puhelimella, niin kosketusnäyttöä näppäimelemmällä ohjataan ohjelmiston toimintoja ja selaimessa hiirellä. Kirjoitus tapahtuu näppäilemällä koskutusnäyttöä tai selaimessa näppäimistöllä.
-
 Ohjelmistossa on mahdollisuus selailla toisten käyttäjien ehdotuksia.
 	Jos toinen käyttäjä on merkinnyt tiedot julkisesti jaettavaksi ja postannut ehdotuksen, niin muut käyttäjät voivat nähdä sen.
 
@@ -151,6 +106,41 @@ Ohjelmistossa on suositut -osio.
 	Suositut osiossa näytetään hetkellisesti suosituimmat kohteet, joista käyttäjä saattaa olla kiinnostunut.
 		Jos kyseessä on ravintola tai hotelli ja kyseiset kohteet ovat täynnä, niin silloin ohjelmisto ei suosittele kohdetta.
 
+Ohjelmiston toimintaa kuvataan asiakkaille ja sidosryhmille UML-kaavioiden avulla.
+	UML-kaavioiden avulla voidaan saada yhteisymmärrys eri tekijöiden kanssa helpommin, jolloin säästetään resursseja ja väärinymmärryksiä.
+
+
+
+Tietoturvavaatimukset:
+
+Ohjelmiston selainpohjaisen käyttöliittymän tulee ilmoittaa evästeistä EU:n alueella.
+	EU:n lakimuutosten myötä, kaikkien Internet -sivujen, jotka käyttävät evästeitä, joutuvat ilmoittamaan tästä käyttäjällensä heti Internet -sivua avattaessa.	
+
+Ohjelmiston tulee noudattaa EU:n asettamia tietoturvalakeja.
+	2025 tulee voimaan uudet tietoturvalait EU:n alueella, joidenka myötä ohjelmistojen tulee täyttää lain määrittämät tietoturvavaatimukset.	
+
+Ohjelmiston tulee olla tietoturvallinen.
+	Ohjelmisto ei saa jakaa käyttäjätietoja muiden tahojen kanssa, paitsi jos käyttäjä antaa luvan.
+
+Tietovuodon havaittaessa ohjelmiston on ilmoittettava käyttäjille siitä mahdollisimman nopeasti.
+	Ohjelmisto ilmoittaa sisäänrakennetulla viestivälityksellä tai esim. sähköpostilla ja kerrottava suositeltavat toimenpiteet (esim. salasanan vaihto).
+
+
+Ylläpitovaatimukset:
+
+Uusien päivitysten saapuessa ohjelmisto ilmoittaa käyttäjille.
+	Tärkeimmät päivitykset ilmoitetaan ainakin ohjelmistossa, mutta ei niin tärkeät päivitykset voidaan ilmoittaa käyttäjän niin valitessa.
+
+Päivityskatkoista ohjelmistossa ilmoitetaan käyttäjille.
+	Esim. sisään rakennetulla viestillä tai sähköpostilla.
+
+Ohjelmiston päivittäminen tapahtuu puhelimissa sovelluskauppojen kautta ja selaimissa automaattisesti.
+	Puhelimissa olevien sovelluskauppojen, josta sovellus on ladattu voidaan päivittää ohjelmisto. Selaimissa ohjelmisto päivittyy automaattisesti ilman päivitysten lataamista.
+		Päivittäminen vaatii internet-yhteyden. Sovellus saattaa lakata toimimasta, jos ohjelmistoa ei päivitetä riittävän usein.
+
+Ohjelmistosta tulee olla mahdollisuus antaa palautetta.
+	Käyttäjät voivat antaa palautetta ohjelmistosta sovelluskaupassa tai ohjelmistossa.
+
 Ohjelmistolle tulee olla tekninen tuki.
 	Teknisestä tuesta käyttäjä saa tietoja ja apua ongelmatilanteisiin. Tekniseen tukeen saadaan yhteys soittamalla, sähköpostilla tai live-chatilla/puhelulla.
 		Vain suomenkielinen tekninen tuki tarjolla alustavasti.
@@ -162,14 +152,59 @@ Ohjelmiston tekninen tuki ja päivitykset tulee olla tarjolla vähintään X vuo
 Ohjelmistoversion päivitys tapahtuu korkeintaan kuukauden sykleissä.
 	Jotta käyttäjäpalaute tai bugit saadaan nopeasti korjattua, niin ohjelmiston päivitys tulee tapahtua joustavasti, eli seuraavan version on oltava ulkona kuukauden sisällä.
 
-Ohjelmisto on työkalu vapaa-ajan suunnitteluun.
-	Ohjelmistoa voidaan käytää apuna retken suunnittelussa, geokätköjen löytämisessä, illallispaikan löytämisessä, tapahtumien löytämisessä, säätietojen löytämisessä, aukiolojen löytämiseen jne.
-
-Ohjelmiston toimintaa kuvataan asiakkaille ja sidosryhmille UML-kaavioiden avulla.
-	UML-kaavioiden avulla voidaan saada yhteisymmärrys eri tekijöiden kanssa helpommin, jolloin säästetään resursseja ja väärinymmärryksiä.
-
 Ohjelmistosta tulee tehdä dokumentaatiota ohjelmistoa kehitettäessä.
 	Dokumentaatioon kirjaataan ylös mitä on tehty, milloin on tehty, kuka on tehnyt. Dokumentaation on oltava riittävän tarkka ja ymmärrettävä, jotta muutkin ihmiset pystyvät hyödyntämään sitä.
+
+
+
+Datavaatimukset:
+
+Ohjelmiston tulee antaa keräämänsä data käyttäjän nähtäville.
+	Jos käyttäjä haluaa tietää, mitä dataa ohjelmisto kerää, niin käyttäjällä tulee olla mahdollisuus sen näkemiseen.
+
+Ohjelmistossa tulee olla mahdollisuus poistaa kaikki käyttäjän tuoma data.
+	Jos käyttäjä lopettaa ohjelmiston käytön (kuolee), niin käyttäjällä tai omaisilla tulee olla mahdollisuus poistaa omat käyttäjätietonsa.
+
+Ohjelmiston asennus ja poistaminen tapahtuu sovelluskaupassa.
+	Ohjelmiston voi asentaa tai poistaa puhelimesta sovelluskaupan sovelluksen avulla.
+
+Suojausvaatimukset:
+
+Ohjelmistossa tulee olla varkaudenesto.
+	Käytännössä, jos esim. puhelin varastetaan, niin omistaja voi selaimen kautta poistaa käyttäjätiedot tai paikantaa laitteen.
+
+Ohjelmistossa tulee olla kaksivaiheinen tunnistus.
+	Esim. Google Authenticatorin avulla voidaan toteuttaa kaksivaiheinen tunnistus.
+
+
+Testausvaatimukset:
+
+Ohjelmiston bugien löytämiseen voidaan käyttää TLA+ -kieltä.
+	TLA+ on korkean tason kieli, jolla voidaan mallintaa ohjelmistoja ja järjestelmiä. TLA+ on suunniteltu löytämään bugeja ohjelmistoista.
+
+
+Integroitumisvaatimukset:
+
+Ohjelmiston tulee pystyä toimimaan muiden ohjelmistojen/tiedostomuotojen kanssa.
+	Ohjelmistoon voidaan lähettää eri tiedostomuotoisia tiedostoja muista ohjelmista, jolloin ohjelmiston tulisi kyetä käsittelemään näitä tiedostoja.
+		Ohjelmistossa tulisi ilmoittaa selvästi, mitä tiedostoja tuetaan.
+
+
+Rahoitusvaatimukset:
+
+Ohjelmiston rahoitus tapahtuu pitkälti yrityksen omien investointien avulla.
+	Ohjelmistojen rahoitus tulee yrityksen omasta takaa, jolloin yrityksen omistajamäärää ei pyritä kasvattamaan.
+
+Ohjelmiston tuotto saadaan mainoksilla ja maksullisella jäsenyydellä.
+	
+
+Käyttövaatimukset:
+
+Ohjelmistoa käytetään kosketusnäytön tai hiiren avulla suurelta osin ja kirjoitus näppäimistöllä.
+	Jos ohjelmistoa käytetään tabletilla tai puhelimella, niin kosketusnäyttöä näppäimelemmällä ohjataan ohjelmiston toimintoja ja selaimessa hiirellä. Kirjoitus tapahtuu näppäilemällä koskutusnäyttöä tai selaimessa näppäimistöllä.
+
+Ohjelmistoa käytetään työkaluna vapaa-ajan suunnitteluun.
+	Ohjelmistoa voidaan käytää apuna retken suunnittelussa, geokätköjen löytämisessä, illallispaikan löytämisessä, tapahtumien löytämisessä, säätietojen löytämisessä, aukiolojen löytämiseen jne.
 
 
 
