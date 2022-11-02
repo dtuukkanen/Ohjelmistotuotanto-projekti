@@ -106,3 +106,11 @@ Miten tehdään:
     OSRM matkan pituuksiin
     Kehittäjä ylläpitää sovellusta
     X miljoonan budjetti
+
+Ominaisuuksia:
+    - Viihde apuri:
+        Algoritmipohjainen ohjelma.
+        Toimii sekä tulkitsemalla käyttäjän syötettä tai "speech to text" ohjelman avulla.
+        Tarkistaa ensin, onko vastaako jokin ohjelmiston ominaisuus käyttäjän kysymykseen.
+        Jos ohjelmisto ei itse vastaa, hakee vastausta internetistä.
+        
