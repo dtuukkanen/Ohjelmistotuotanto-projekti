@@ -37,9 +37,8 @@ Mitä tekee:
     Manuaalisesti päivitettynynä kertoa ne ravintolat joissa on ”lapsiystävällisiä” annoksia. ja suositellla niitä jos niin on määritelty.
     Tallentaa käyttäjän lenkkipolun halutessaan ja esim ajan. jotta käyttäjä voi vertailla lenkkiakojaan.
     Kerää dataa käyttäjistä. Seurueen koko. Onko lapsia. Ikähaarukka.
-    Ehdottaa reittejä perustuen  samoilla seurueen spekseillä oleviin aikaisempiin reitteihin.
-    Kertoa mitkä paikat ovat minkäkin ikä ryhmän suosiossa. 
-    Paikoissa jossa voi joitua jonottamaan on paikkadatan avulla aukeava yksinkertainen minipeli jota voi pelata vain siinä paikassa kuluttaakseen jonotus aikaa. Tulokset tallentuisivat listaan kaikkien nähtäville. 
+    Ehdottaa reittejä perustueehdottaa reittejä perustuen  samoilla seurueen  samoilla seurueen spekseillä oleviin aikaisempiin reitteihin.
+    Kertoa mitkä paikat ovat mkertoa mitkä paikat ovat minkäkin ikä ryhmän suosiossa. 
     Ohjelmiston tulee toimia kaikissa Internet selaimissa. Ohjelmiston tulee tukea jokaista Internet selainta tietokoneella käytettäessä, jotta ihmiset voivat kotoa suunnitella haluamaansa ajanvietettä ennakkoon.	
 
 Miten käytetään:
@@ -106,12 +105,3 @@ Miten tehdään:
     OSRM matkan pituuksiin
     Kehittäjä ylläpitää sovellusta
     X miljoonan budjetti
-
-### Listasta tuodaan ###
-*** Daniel ***
-
-*** Hannes ***
-
-*** Jesperi ***
-
-*** Sami ***
