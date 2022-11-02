@@ -1,5 +1,4 @@
-Ohjelman tulisi toimia kännykällä. 
- Ohjelman tulisi pystyä hakemaan dataa avoimen koodin läheteistä.
+  Ohjelman tulisi pystyä hakemaan dataa avoimen koodin läheteistä.
  ohjelman tulisi pystyä yhdistämään sijaintitiedot, säätirtoihin ja päättelemään niiden avulla sään halutulla alueella.
  psytyä träkkäämään ympristöä ja hahmottamaan maan taso ja lisäämään ar-objekteja näytölle
 
@@ -9,7 +8,7 @@ määrittämään/käyttämään google mapsia matka-ajan määrittämiseen.
 
 kertomaan missä on lähin ravintola/ kulttuuri paikka 
 
-yhdistämään säätila halutun kohteen(ravintola, terassi yms.) aukiolo ajan kanssa.
+yhdistämään säätila halutun kohteen(ravintola, terassi yms.) aukioloajan kanssa.
 
 merkata geokätköjä
 
@@ -31,7 +30,7 @@ esim.
 
 määritellä ruokailupaikkoja eri luokkiin. pikaruoka, ravintola, kioski jne
 
-manuaalisesti päivitettynynä kertoa ne ravintolat joissa on ”lapsi ystävällisiä” annoksia. ja suositellla niitä jos niin on määritelty. perustuu asiakkaiden tekemiin paikassaivityksiin. 
+manuaalisesti päivitettynynä kertoa ne ravintolat joissa on ”lapsiystävällisiä” annoksia. ja suositellla niitä jos niin on määritelty. perustuu asiakkaiden tekemiin paikassaivityksiin. 
 Ei lisää automaattisesti vaan ylläpitäjän pitää lisää ne asiakkaiden ehdotusten perusteella ja mahdollisen netistä löytyvän menun perusteella.
 
 tallentaa käyttäjän lenkkipolun halutessaan ja esim ajan. jotta käyttäjä voi vertailla lenkkiakojaan.
@@ -39,11 +38,9 @@ tallentaa käyttäjän lenkkipolun halutessaan ja esim ajan. jotta käyttäjä v
 kerätä dataa käyttäjistä. seurueen koko. onko lapsia. ikä haarukka.
  ehdottaa reittejä perustuen  samoilla seurueen spekseillä oleviin aikaisempiin reitteihin.
 
-kertoa mitkä paikat ovat minkäkin ikä ryhmän suosiossa. 
+kertoa mitkä paikat ovat minkäkin ikäryhmän suosiossa. 
 
-näyttää kaupungin ulkoliikunta paikat. salit frisbiigolf radat
-
-paikoissa jossa voi joitua jonottamaan on paikkadatan avulla aukeava yksinkertainen minpeli jota voi pelata vain siinä paikassa kuluttaakseen aikaa. Tulokset tallentuisivat listaan kaikkien nähtäville. 
+näyttää kaupungin ulkoliikuntapaikat eli ns. ilmaiset salit, frisbiigolfradat jne.
 
 peli: aarteen metsästys. puhelimen kompassi. ”jack sparrow” kompassi. näyttää suunnan sinne missä aarre on. varoittaa teistä. aarteen metsästys tiettynä aikana?. Ei oikeaa aarretta, mutta puhelin ilmoittaa kun olet aarteen päällä. aarteet haluttujen paikkoijen lähellä. eli ns sidequest. 
 määrittää puhelimen asento qyroskoopin avulla ja siten ohjata oikeaan suuntaa edellämainitussa pelissä.
@@ -54,5 +51,4 @@ arvostelut paikoille  google mapsista
 
 näyttää matkailuautoparkkipaikat.
 
-suositella lähintä parkki aluetta määritetyn kohteen läheltä.  Data open street datasta. kts esim tarinasoitin.frisbiigolf
-
+suositella lähintä parkkialuetta määritetyn kohteen läheltä.  Data open street datasta. kts esim tarinasoitin.frisbiigolf.
