@@ -106,8 +106,8 @@ Ohjelmiston tulee pystyä hyödyntämään AikaApuri ja KarttaApuri -ohjelmistoj
 Ohjelmiston tulee pystyä toimimaan suurien käyttäjämäärien kuormituksessa.
 	Jos ohjelmalla on paljon yhtäaikaisia käyttäjiä, niin ohjelmiston tulee suoriutua tästä ongelmasta esim. lisäämällä kaistaa automaattisesti.
 
-Ohjelmisto toimii alustavasti pelkästään Suomessa.
-	Ohjelmiston alustavissa vaiheissa keskitytään Suomeen pelkästään, mutta jos ohjelmistosta tulee suosittu, niin laajennus muihin maihin mahdollinen.
+Ohjelmisto on alustavasti suomenkielinen.
+	Ohjelmiston alustavissa vaiheissa keskitytään Suomeen pelkästään, mutta jos ohjelmistosta tulee suosittu, niin laajennus muihin kieliin mahdollinen.
 
 Ohjelmistossa tulee olla epileptikko moodi.
 	Ohjelmistossa epileptikko moodi estää ohjelmistoa esittämästä sellaisia toimintoja, jotka saattaisivat laukaista käyttäjässä epilepsia kohtauksen.
