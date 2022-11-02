@@ -81,3 +81,32 @@ Lopputulos
  
 
 Muut vaatimukset 
+
+
+Nimi ja versio 
+geokätkön merkkaus 1.0
+
+Suorittajat 
+ Käyttäjä
+
+
+Esiehdot  
+ käyttäjällä pitää olla tarve tarkistaa  merkata geokätkö
+
+
+Kuvaus 
+ Käyttäjä merkkaa löytämänsä geokätkön
+ Käyttäjä avaa kartta välilehden. Zoomaa haluamansa kohteen kohdalle. Klikkaa kohdetta. listaa geokätkö välilehti ponnahdus ikkuna tulee näkyviin. 
+ käyttäjä klikkaa nappia: lisää geokätkö. 
+ ohjelma hakee gps tiedot ja tallentaa geokätkön niihin koordinaatteihin,
+
+
+Poikkeukset    
+ Käyttäjä ei voi tallentaa geokätköja suomen ulkopuolella.
+ 
+
+Lopputulos 
+ Käyttäjä sai tallennettua geokätkön sijainnin nykyisiin koordinaatteihin.
+ 
+
+Muut vaatimukset 
