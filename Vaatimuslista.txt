@@ -16,7 +16,6 @@ Miten toimii:
     Hakee tekoälyn datatsta vastauksia käyttäjän kysymyksiin
     Ohjelman tulee pystyä hakemaan dataa avoimen koodin läheteistä
     Ohjelman tulee pystyä yhdistämään sijaintitiedot, säätietoihin ja päättelemään niiden avulla sää halutulla alueella.
-    Haetaan tiedot matka-ajoille seuraaville ajoneuvoluokille: Kävely, Pyörä, Autos
 
 Mitä tekee:
     Tallentaa käyttäjän toiminnot GPX-tiedostoina
@@ -38,15 +37,14 @@ Mitä tekee:
     Manuaalisesti päivitettynynä kertoa ne ravintolat joissa on ”lapsiystävällisiä” annoksia. ja suositellla niitä jos niin on määritelty.
     Tallentaa käyttäjän lenkkipolun halutessaan ja esim ajan. jotta käyttäjä voi vertailla lenkkiakojaan.
     Kerää dataa käyttäjistä. Seurueen koko. Onko lapsia. Ikähaarukka.
-    Ehdottaa reittejä perustuen  samoilla seurueen spekseillä oleviin aikaisempiin reitteihin.
-    Kertoa mitkä paikat ovat minkäkin ikä ryhmän suosiossa. 
-    Paikoissa jossa voi joitua jonottamaan on paikkadatan avulla aukeava yksinkertainen minipeli jota voi pelata vain siinä paikassa kuluttaakseen jonotus aikaa. Tulokset tallentuisivat listaan kaikkien nähtäville. 
+    Ehdottaa reittejä perustueehdottaa reittejä perustuen  samoilla seurueen  samoilla seurueen spekseillä oleviin aikaisempiin reitteihin.
+    Kertoa mitkä paikat ovat mkertoa mitkä paikat ovat minkäkin ikä ryhmän suosiossa. 
     Ohjelmiston tulee toimia kaikissa Internet selaimissa. Ohjelmiston tulee tukea jokaista Internet selainta tietokoneella käytettäessä, jotta ihmiset voivat kotoa suunnitella haluamaansa ajanvietettä ennakkoon.	
 
 Miten käytetään:
     Merkata geokätköjä
         Kun käyttäjä on geogätkön koordinaateissa, käyttäjä painaa " merkkaa geokätkö" näppäintä. Lisäksi käyttäjä voi tallentaa tekstitiedostoon vinkin geokätkön löytämiseen, joko itselleen tai julkiseksi.
-    Hakukentän avulla tekoälylle voi esittää kysymyksiä, joiden perusteella tekoäly antaa sopivia vastauksia.
+    
 
 Mitkä vaatimukset:
     # Laitevaatimukset
