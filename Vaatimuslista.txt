@@ -16,6 +16,7 @@ Miten toimii:
     Hakee tekoälyn datatsta vastauksia käyttäjän kysymyksiin
     Ohjelman tulee pystyä hakemaan dataa avoimen koodin läheteistä
     Ohjelman tulee pystyä yhdistämään sijaintitiedot, säätietoihin ja päättelemään niiden avulla sää halutulla alueella.
+    Haetaan tiedot matka-ajoille seuraaville ajoneuvoluokille: Kävely, Pyörä, Autos
 
 Mitä tekee:
     Tallentaa käyttäjän toiminnot GPX-tiedostoina
@@ -45,7 +46,7 @@ Mitä tekee:
 Miten käytetään:
     Merkata geokätköjä
         Kun käyttäjä on geogätkön koordinaateissa, käyttäjä painaa " merkkaa geokätkö" näppäintä. Lisäksi käyttäjä voi tallentaa tekstitiedostoon vinkin geokätkön löytämiseen, joko itselleen tai julkiseksi.
-    
+    Hakukentän avulla tekoälylle voi esittää kysymyksiä, joiden perusteella tekoäly antaa sopivia vastauksia.
 
 Mitkä vaatimukset:
     # Laitevaatimukset
