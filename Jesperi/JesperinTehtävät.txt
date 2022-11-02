@@ -58,7 +58,7 @@ KÄYTTÖTAPAUS KUVAUKSET
 
 
 Nimi ja versio 
- Käyttäjä tarkistaa sään haluamassaan kohteessa
+Sään tarkistus 1.0
 
 Suorittajat 
  Käyttäjä
@@ -69,6 +69,7 @@ Esiehdot
 
 
 Kuvaus 
+ Käyttäjä tarkistaa sään haluamassaan kohteessa
  Käyttäjä avaa kartta välilehden. Zoomaa haluamansa kohteen kohdalle. Klikkaa kohdetta. Kohteen info ponnahdusikkuna aukeaa. käyttäjä klikkaa "Sää"-nappia ja sovellus avaa sää graaffin.
 
 Poikkeukset    
@@ -80,6 +81,3 @@ Lopputulos
  
 
 Muut vaatimukset 
-
- 
-
