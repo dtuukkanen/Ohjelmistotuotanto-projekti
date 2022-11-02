@@ -13,12 +13,9 @@ Miten toimii:
     Ohjelman tulee pystyä yhdistämään sijaintitiedot, säätietoihin ja päättelemään niiden avulla sää halutulla alueella.
 
 Mitä tekee:
-<<<<<<< Updated upstream
     Tallentaa käyttäjän toiminnot sijaintitiedostoina
     Pitää listaa jo löydettyistä geokätköistä 
-=======
     Näyttää löydetyt geokätkyt erilaisina kaikkien geokätköjen joukossa.
->>>>>>> Stashed changes
     Näyttää kaupungin ulkoliikunta paikat. salit frisbiigolf radat
     Erottelee maksavat ja ilmaisohjelmaa käyttävät käyttäjät eri statuksilla
     Rajaa käyttäjälle avoimia ominaisuuksia käyttäjän statuksen mukaan
@@ -26,41 +23,39 @@ Mitä tekee:
     Määrittämään/käyttämään OSRM matka-ajan määrittämiseen.
     Kertomaan missä on lähin ravintola tai kulttuuripaikka.
     Yhdistämään haluttu säätila halutun kohteen(ravintola, terassi yms.) aukiolo ajan kanssa.
-<<<<<<< Updated upstream
-    Uudelleenohjaa käyttäjän Geocatching-palveluun
-=======
     Kerää geokätöjen sijainteja yleiseen levitykseen.
->>>>>>> Stashed changes
     Laskea mihin kohteisiin kerkeät kohteen aukioloaikana nykyisestä sijainnista halutulla kulkuvälineellä.
     Luokittelee kohteita viihdepalveluihin, ruokapaikkoihin,
     Luoda mahdollisia ”kokemusreittejä” halutuilla rajaukislla. Onko lapsia, haluuako vierailla kulttuuripaikoissa vai enemmän toiminnallisissa. esim hiekkalinna. Jos haluaa vaikka mennä hiekkalinnaan, niin näyttää hiekkalinnaa lähellä olevat ruokapaikat ja aukioloajat.	
     Määritellä ruokailupaikkoja eri luokkiin. pikaruoka, ravintola, kioski jne.
     Manuaalisesti päivitettynynä kertoa ne ravintolat joissa on ”lapsiystävällisiä” annoksia. ja suositellla niitä jos niin on määritelty.
     Kerää dataa käyttäjistä. Seurueen koko. Onko lapsia. Ikähaarukka.
-<<<<<<< Updated upstream
-    Ehdottaa reittejä perustueehdottaa reittejä perustuen  samoilla seurueen  samoilla seurueen spekseillä oleviin aikaisempiin reitteihin.
-    Kertoa mitkä paikat ovat mkertoa mitkä paikat ovat minkäkin ikä ryhmän suosiossa. 
-    Ohjelmiston tulee toimia kaikissa Internet selaimissa. Ohjelmiston tulee tukea jokaista Internet selainta tietokoneella käytettäessä, jotta ihmiset voivat kotoa suunnitella haluamaansa ajanvietettä ennakkoon.	
-=======
     Ehdottaa reittejä perustuen  samoilla seurueen spekseillä oleviin aikaisempiin reitteihin.
->>>>>>> Stashed changes
+    Kertoa mitkä paikat ovat minkäkin ikä ryhmän suosiossa. 
+    Paikoissa jossa voi joitua jonottamaan on paikkadatan avulla aukeava yksinkertainen minipeli jota voi pelata vain siinä paikassa kuluttaakseen jonotus aikaa. Tulokset tallentuisivat listaan kaikkien nähtäville. 
+    Ohjelmiston tulee toimia kaikissa Internet selaimissa. Ohjelmiston tulee tukea jokaista Internet selainta tietokoneella käytettäessä, jotta ihmiset voivat kotoa suunnitella haluamaansa ajanvietettä ennakkoon.	
+    Ehdottaa reittejä perustuen  samoilla seurueen spekseillä oleviin aikaisempiin reitteihin.
 
 Miten käytetään:
-    
+    Merkata geokätköjä
+        Kun käyttäjä on geogätkön koordinaateissa, käyttäjä painaa " merkkaa geokätkö" näppäintä. Lisäksi käyttäjä voi tallentaa tekstitiedostoon vinkin geokätkön löytämiseen, joko itselleen tai julkiseksi.
+    Ohjelmistoa käytetään kosketusnäytön tai hiiren avulla suurelta osin ja kirjoitus näppäimistöllä.
+    Ohjelmistoa käytetään työkaluna vapaa-ajan suunnitteluun.
+
 
 Mitkä vaatimukset:
     # Laitevaatimukset
     Ohjelmiston tulee toimia kaikissa puhelinkäyttöjärjestelmissä. Ohjelmiston tulee tukea Android, iOS, Linux ja muita suosittuja puhelinkäyttöjärjestelmiä, jotta ohjelmisto olisi saatavilla mahdollisimman monelle ihmiselle puhelimesta.
-<<<<<<< Updated upstream
+    Ohjelman tulisi toimia kännykällä
     ARM-pohjaisten laitteiden tuki
-=======
->>>>>>> Stashed changes
     Android-yhteensopivuus
     iOS-yhteensopivuus
     LineageOS-yhteensopivuus
     GrapheneOS-yhteensopivuus
     Ei toimi vanhemmilla järjestelmillä kuin Android 8
     Ei toimi vanhemmilla järjestelmillä kuin iOS 11
+    Ohjelmistojen tulee vaatia korkeintaan 1 gb keskusmuistia ja korkeintaan 1 gb oheismuistia.
+    Ohjelmisto tukee laitteistoja, joiden näytön resoluutio on vähintään 1024*768.
 
     # Julkaisupaikat
     Julkaistaan Google Play Storeen
@@ -82,9 +77,46 @@ Mitkä vaatimukset:
     Käsittelee asiakkaan tietoja voimassaolevien lakien ja säädösten mukaisesti
     Ohjelmiston selainpohjaisen käyttöliittymän tulee ilmoittaa evästeistä EU:n alueella. EU:n lakimuutosten myötä, kaikkien Internet -sivujen, jotka käyttävät evästeitä, joutuvat ilmoittamaan tästä käyttäjällensä heti Internet -sivua avattaessa.	
     Ohjelmiston tulee noudattaa EU:n asettamia tietoturvalakeja. 2025 tulee voimaan uudet tietoturvalait EU:n alueella, joidenka myötä ohjelmistojen tulee täyttää lain määrittämät tietoturvavaatimukset.	
+    Tietovuodon havaittaessa ohjelmiston on ilmoittettava käyttäjille siitä mahdollisimman nopeasti.
+
+    # Ylläpitovaatimukset
+    Uusien päivitysten saapuessa ohjelmisto ilmoittaa käyttäjille.
+    Päivityskatkoista ohjelmistossa ilmoitetaan käyttäjille.
+    Ohjelmiston päivittäminen tapahtuu puhelimissa sovelluskauppojen kautta ja selaimissa automaattisesti.
+    Ohjelmistosta tulee olla mahdollisuus antaa palautetta.
+    Ohjelmistolle tulee olla tekninen tuki.
+    Ohjelmiston tekninen tuki ja päivitykset tulee olla tarjolla vähintään X vuotta julkaisusta.
+    Ohjelmistoversion päivitys tapahtuu korkeintaan kuukauden sykleissä.
+    Ohjelmistosta tulee tehdä dokumentaatiota ohjelmistoa kehitettäessä.
+
+    # Suunnitteluvaatimukset
+    Ohjelmistosuunnittelussa otettava huomioon potentiaaliset uudet käyttöjärjestelmät
+    Ohjelmistosuunnittelussa selvitettävä, mitkä asiat eivät välttämättä ole ajankohtaisia enää lähitulevaisuudessa.
+    Ohjelmistosuunnittelussa selvitettävä, miten ohjelmiston kehitys tai ylläpito ajetaan ales.
+    Ohjelmistosuunnittelussa selvitettävä, mitä ei pystytä toteuttamaan kyseisillä resursseilla.
+    Ohjelmistosuunnittelussa selvitettävä, mitä käyttäjä ei toivo ohjelmistolta.
+    Ohjelmistosuunnittelussa selvitettävä, mitä käyttäjän on kerrottava tai toimitettava ohjelmistoon ennen sen käyttöä.
+    Ohjelmistosuunnittelussa selvitettävä, mitä kilpailijat tarjoavat.
+    Ohjelmistosuunnittelussa selvitettävä, mitä yllättäviä riskejä ohjelmistontuotanto saattaa sisältää.
+    Ohjelmisto suunniteltava niin, että siitä on helppo päivittää.
+
+
+    # Datavaatimukset
+    Ohjelmiston tulee antaa keräämänsä data käyttäjän nähtäville.
+    Ohjelmistossa tulee olla mahdollisuus poistaa kaikki käyttäjän tuoma data.
+    Ohjelmiston asennus ja poistaminen tapahtuu sovelluskaupassa.
+    
+    # Suojausvaatimukset
+    Ohjelmistossa tulee olla varkaudenesto.
+    Ohjelmistossa tulee olla kaksivaiheinen tunnistus.
+
 
     # Muut vaatimukset
     Ohjelmiston tulee pystyä toimimaan muiden ohjelmistojen/tiedostomuotojen kanssa. Ohjelmistoon voidaan lähettää eri tiedostomuotoisia tiedostoja muista ohjelmista, jolloin ohjelmiston tulisi kyetä käsittelemään näitä tiedostoja.	Ohjelmistossa tulisi ilmoittaa selvästi, mitä tiedostoja tuetaan.
+    Ohjelmiston rahoitus tapahtuu pitkälti yrityksen omien investointien avulla.
+    Ilmaisversiossa tuotto saadaan mainosten avulla. Maksullisessa versiossa kuukausimaksun avulla.
+    Ohjelmisto on alustavasti suomenkielinen.
+
 
 Millainen käyttöliittymän:
     UI simppeliksi
@@ -106,6 +138,15 @@ Miten tehdään:
     OSRM matkan pituuksiin
     Kehittäjä ylläpitää sovellusta
     X miljoonan budjetti
+
+### Listasta tuodaan ###
+*** Daniel ***
+
+*** Hannes ***
+
+*** Jesperi ***
+
+*** Sami ***
 
 Ominaisuuksia:
     - Viihde apuri:
