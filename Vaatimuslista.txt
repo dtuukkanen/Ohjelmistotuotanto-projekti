@@ -18,7 +18,7 @@ Miten toimii:
     Ohjelman tulee pystyä yhdistämään sijaintitiedot, säätietoihin ja päättelemään niiden avulla sää halutulla alueella.
 
 Mitä tekee:
-    Tallentaa käyttäjän toiminnot GPX-tiedostoina
+    Tallentaa käyttäjän toiminnot sijaintitiedostoina
     Pitää listaa jo löydettyistä geokätköistä 
     Näyttää kaupungin ulkoliikunta paikat. salit frisbiigolf radat
     Erottelee maksavat ja ilmaisohjelmaa käyttävät käyttäjät eri statuksilla
@@ -28,8 +28,7 @@ Mitä tekee:
     Määrittämään/käyttämään OSRM matka-ajan määrittämiseen.
     Kertomaan missä on lähin ravintola tai kulttuuripaikka.
     Yhdistämään haluttu säätila halutun kohteen(ravintola, terassi yms.) aukiolo ajan kanssa.
-    Kerää geokätöjen sijainteja yleiseen levitykseen.
-    Kerää dataa geokätköjen tarvikkeiden täydennys tarpeesta. 
+    Uudelleenohjaa käyttäjän Geocatching-palveluun
     Laskea mihin kohteisiin kerkeät kohteen aukioloaikana nykyisestä sijainnista halutulla kulkuvälineellä.
     Luokittelee kohteita viihdepalveluihin, ruokapaikkoihin,
     Luoda mahdollisia ”kokemusreittejä” halutuilla rajaukislla. Onko lapsia, haluuako vierailla kulttuuripaikoissa vai enemmän toiminnallisissa. esim hiekkalinna. Jos haluaa vaikka mennä hiekkalinnaan, niin näyttää hiekkalinnaa lähellä olevat ruokapaikat ja aukioloajat.	
@@ -42,8 +41,6 @@ Mitä tekee:
     Ohjelmiston tulee toimia kaikissa Internet selaimissa. Ohjelmiston tulee tukea jokaista Internet selainta tietokoneella käytettäessä, jotta ihmiset voivat kotoa suunnitella haluamaansa ajanvietettä ennakkoon.	
 
 Miten käytetään:
-    Merkata geokätköjä
-        Kun käyttäjä on geogätkön koordinaateissa, käyttäjä painaa " merkkaa geokätkö" näppäintä. Lisäksi käyttäjä voi tallentaa tekstitiedostoon vinkin geokätkön löytämiseen, joko itselleen tai julkiseksi.
     
 
 Mitkä vaatimukset:
