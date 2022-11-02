@@ -106,12 +106,3 @@ Miten tehdään:
     OSRM matkan pituuksiin
     Kehittäjä ylläpitää sovellusta
     X miljoonan budjetti
-
-### Listasta tuodaan ###
-*** Daniel ***
-
-*** Hannes ***
-
-*** Jesperi ***
-
-*** Sami ***
