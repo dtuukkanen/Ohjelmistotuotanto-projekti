@@ -42,9 +42,6 @@ kertoa mitkä paikat ovat minkäkin ikäryhmän suosiossa.
 
 näyttää kaupungin ulkoliikuntapaikat eli ns. ilmaiset salit, frisbiigolfradat jne.
 
-peli: aarteen metsästys. puhelimen kompassi. ”jack sparrow” kompassi. näyttää suunnan sinne missä aarre on. varoittaa teistä. aarteen metsästys tiettynä aikana?. Ei oikeaa aarretta, mutta puhelin ilmoittaa kun olet aarteen päällä. aarteet haluttujen paikkoijen lähellä. eli ns sidequest. 
-määrittää puhelimen asento qyroskoopin avulla ja siten ohjata oikeaan suuntaa edellämainitussa pelissä.
-
 värikorjaus tila
 
 arvostelut paikoille  google mapsista
@@ -84,21 +81,21 @@ Muut vaatimukset
 
 
 Nimi ja versio 
-geokätkön merkkaus 1.0
+marjapaikan merkkaus 1.0
 
 Suorittajat 
  Käyttäjä
 
 
 Esiehdot  
- käyttäjällä pitää olla tarve tarkistaa  merkata geokätkö
+ käyttäjällä pitää olla tarve merkata marjapaikka
 
 
 Kuvaus 
- Käyttäjä merkkaa löytämänsä geokätkön
- Käyttäjä avaa kartta välilehden. Zoomaa haluamansa kohteen kohdalle. Klikkaa kohdetta. listaa geokätkö välilehti ponnahdus ikkuna tulee näkyviin. 
+ Käyttäjä merkkaa löytämänsä marja-apajan
+ Käyttäjä avaa kartta välilehden. Zoomaa haluamansa kohteen kohdalle. Klikkaa kohdetta. listaa marjapaikka välilehti ponnahdus ikkuna tulee näkyviin. 
  käyttäjä klikkaa nappia: lisää geokätkö. 
- ohjelma hakee gps tiedot ja tallentaa geokätkön niihin koordinaatteihin,
+ ohjelma hakee gps tiedot ja tallentaa marjapaikan niihin koordinaatteihin,
 
 
 Poikkeukset    
@@ -106,7 +103,9 @@ Poikkeukset
  
 
 Lopputulos 
- Käyttäjä sai tallennettua geokätkön sijainnin nykyisiin koordinaatteihin.
+ Käyttäjä sai tallennettua marjapaikan sijainnin nykyisiin koordinaatteihin.
  
 
 Muut vaatimukset 
+-
+
