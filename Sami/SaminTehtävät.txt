@@ -6,6 +6,8 @@ Ohjelmistojen tulee vaatia korkeintaan 1 gb keskusmuistia ja korkeintaan 1 gb oh
 Ohjelmisto tukee laitteistoja, joiden näytön resoluutio on vähintään 1024*768.
 	Ohjelmisto on optimoitu Full-HD näytöille, mutta toimii alemmilla ja korkeimmillakin resoluutioilla.
 
+Ohjelmisto toimii älypuhelimella tai tietokoneella.
+
 
 Suunnitteluvaatimukset:
 
@@ -39,6 +41,7 @@ Ohjelmistosuunnittelussa selvitettävä, mitä yllättäviä riskejä ohjelmisto
 
 Ohjelmisto suunniteltava niin, että siitä on helppo päivittää.
 	Jos ohjelmistossa huomataan jonkun ominaisuuden olevan turha, niin sen tulisi olla helppo poistaa ilman, että se rikkoo koko ohjelmistoa.
+
 
 
 Ohjelmistovaatimukset:
@@ -91,6 +94,9 @@ Ohjelmistosta on ilmaisversio ja maksullinen versio.
 
 Ohjelmiston tulee olla helppokäyttöinen.
 	Ohjelmisto tulee olla intuitiivisesti helposti ymmärrettävä ja selkeä, jotta käyttäjien tuen tarve olisi mahdollisimman pieni.
+
+Ohjelmiston on oltava tyyliltään kaunis katsella.
+	Ohjelmisto ei saa olla tyyliltään brutalistinen, vaan esteettisesti hiottu.
 
 Ohjelmistossa on mahdollisuus selailla toisten käyttäjien ehdotuksia.
 	Jos toinen käyttäjä on merkinnyt tiedot julkisesti jaettavaksi ja postannut ehdotuksen, niin muut käyttäjät voivat nähdä sen.
@@ -167,6 +173,9 @@ Ohjelmistossa tulee olla mahdollisuus poistaa kaikki käyttäjän tuoma data.
 
 Ohjelmiston asennus ja poistaminen tapahtuu sovelluskaupassa.
 	Ohjelmiston voi asentaa tai poistaa puhelimesta sovelluskaupan sovelluksen avulla.
+
+Ohjelmiston keräämälle datalle tulee olla backup.
+	Kerätylle datalle tulee olla varmuuskopiot, jotta järjestelmä voidaan palauttaa toimivaksi, jos alkuperäinen data tuhoutuu tai korruptoituu.
 
 Suojausvaatimukset:
 
