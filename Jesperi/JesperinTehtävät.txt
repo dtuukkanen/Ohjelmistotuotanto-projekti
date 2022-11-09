@@ -109,3 +109,30 @@ Lopputulos
 Muut vaatimukset 
 -
 
+
+Nimi ja versio 
+kohdehaku 1.0
+
+Suorittajat 
+ Käyttäjä
+
+
+Esiehdot  
+ käyttäjällä pitää olla tarve etsiä jokin kohde(esim ravintola)
+
+
+Kuvaus 
+ Ohjelma etsii kohteen sijainnin googlen open mapsista. Käyttää OSMR:ää matka-ajan selvittämiseen halutulla kulkutavalla. 
+ Tulostaa käyttäjän näkyville matka-ajan.
+
+
+Poikkeukset    
+ Käyttäjä ei voi hakea kohteita Suomen ulkopuolelta
+ 
+
+Lopputulos 
+ Käyttäjä sai tiedon haluamansa kohteen sijainnista, reitistä kohteeseen ja siihen kuluvasta ajasta haluamallaan kulkuvälineellä.
+ 
+
+Muut vaatimukset 
+-
