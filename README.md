@@ -14,23 +14,23 @@ Muokkaus -> Avaa työpöytäsovelluksessa
 # Tehtävänjako
 ## Vaihe 1
 ### Daniel:
-* 20 vaatimusmääritelmää
+* 20 vaatimusmääritelmää [x]
 ### Jesperi:
-* 20 vaatimusmääritelmää
+* 20 vaatimusmääritelmää [x]
 ### Sami:
-* 20 vaatimusmääritelmää
+* 20 vaatimusmääritelmää [x]
 ### Hannes:
-* 20 vaatimusmääritelmää
+* 20 vaatimusmääritelmää [x]
 
 ## Vaihe 2
 ### Daniel:
-* 3 Käyttöliittymäkuvausta
+* 3 Käyttöliittymäkuvausta [x]
 ### Jesperi:
-* 3 Käyttöliittymäkuvausta
+* 3 Käyttöliittymäkuvausta [ ]
 ### Sami:
-* 3 Käyttöliittymäkuvausta
+* 3 Käyttöliittymäkuvausta [ ]
 ### Hannes:
-* 3 Käyttöliittymäkuvausta
+* 3 Käyttöliittymäkuvausta [ ]
 
 ## Vaihe 3
-* Tehkää alustava projektisuunnitelma siitä, miten kokonaisuutta kannattaisi lähteä toteuttamaan.
+* Tehkää alustava projektisuunnitelma siitä, miten kokonaisuutta kannattaisi lähteä toteuttamaan. [ ]
