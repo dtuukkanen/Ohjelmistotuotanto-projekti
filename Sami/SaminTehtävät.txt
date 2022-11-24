@@ -6,7 +6,7 @@ Ohjelmistojen tulee vaatia korkeintaan 1 gb keskusmuistia ja korkeintaan 1 gb oh
 Ohjelmisto tukee laitteistoja, joiden näytön resoluutio on vähintään 1024*768.
 	Ohjelmisto on optimoitu Full-HD näytöille, mutta toimii alemmilla ja korkeimmillakin resoluutioilla.
 
-Ohjelmisto toimii älypuhelimella tai tietokoneella.
+Ohjelmisto toimii älypuhelimella tai tabletilla.
 
 
 Suunnitteluvaatimukset:

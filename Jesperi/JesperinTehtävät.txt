@@ -81,31 +81,58 @@ Muut vaatimukset
 
 
 Nimi ja versio 
-marjapaikan merkkaus 1.0
+kiinnostuksen kohteen merkkaus 1.0
 
 Suorittajat 
  Käyttäjä
 
 
 Esiehdot  
- käyttäjällä pitää olla tarve merkata marjapaikka
+ käyttäjällä pitää olla tarve kiinnostuksen kohde
 
 
 Kuvaus 
- Käyttäjä merkkaa löytämänsä marja-apajan
- Käyttäjä avaa kartta välilehden. Zoomaa haluamansa kohteen kohdalle. Klikkaa kohdetta. listaa marjapaikka välilehti ponnahdus ikkuna tulee näkyviin. 
- käyttäjä klikkaa nappia: lisää geokätkö. 
- ohjelma hakee gps tiedot ja tallentaa marjapaikan niihin koordinaatteihin,
+ Käyttäjä merkkaa löytämänsä kiinnostuksen kohteen
+ Käyttäjä avaa kartta välilehden. Zoomaa haluamansa kohteen kohdalle. Klikkaa kohdetta. lisää kiinnostuksen kohde välilehti ponnahdus ikkuna tulee näkyviin. 
+ käyttäjä klikkaa nappia: lisää kiinnostuksen kohde. 
+ ohjelma hakee gps tiedot ja tallentaa kiinnostuksen kohteen niihin koordinaatteihin,
 
 
 Poikkeukset    
- Käyttäjä ei voi tallentaa geokätköja suomen ulkopuolella.
+ Käyttäjä ei voi tallentaa kiinnostuksen kohteita suomen ulkopuolella.
  
 
 Lopputulos 
- Käyttäjä sai tallennettua marjapaikan sijainnin nykyisiin koordinaatteihin.
+ Käyttäjä sai tallennettua kiinnostuksen kohteen sijainnin nykyisiin koordinaatteihin.
  
 
 Muut vaatimukset 
 -
 
+
+Nimi ja versio 
+kohdehaku 1.0
+
+Suorittajat 
+ Käyttäjä
+
+
+Esiehdot  
+ käyttäjällä pitää olla tarve etsiä jokin kohde(esim ravintola)
+
+
+Kuvaus 
+ Ohjelma etsii kohteen sijainnin googlen open mapsista. Käyttää OSMR:ää matka-ajan selvittämiseen halutulla kulkutavalla. 
+ Tulostaa käyttäjän näkyville matka-ajan.
+
+
+Poikkeukset    
+ Käyttäjä ei voi hakea kohteita Suomen ulkopuolelta
+ 
+
+Lopputulos 
+ Käyttäjä sai tiedon haluamansa kohteen sijainnista, reitistä kohteeseen ja siihen kuluvasta ajasta haluamallaan kulkuvälineellä.
+ 
+
+Muut vaatimukset 
+-
