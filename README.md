@@ -26,11 +26,14 @@ Muokkaus -> Avaa työpöytäsovelluksessa
 ### Daniel:
 - [x] 3 Käyttöliittymäkuvausta 
 ### Jesperi:
-- [ ] 3 Käyttöliittymäkuvausta 
+- [x] 3 Käyttöliittymäkuvausta 
 ### Sami:
-- [ ] 3 Käyttöliittymäkuvausta 
+- [x] 3 Käyttöliittymäkuvausta 
 ### Hannes:
-- [ ] 3 Käyttöliittymäkuvausta 
+- [x] 3 Käyttöliittymäkuvausta 
 
 ## Vaihe 3
-- [ ] Tehkää alustava projektisuunnitelma siitä, miten kokonaisuutta kannattaisi lähteä toteuttamaan.
+- [x] Tehkää alustava projektisuunnitelma siitä, miten kokonaisuutta kannattaisi lähteä toteuttamaan.
+
+## Vaihe 4
+- [ ] Viimeistely
